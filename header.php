@@ -24,7 +24,7 @@
 <body>
   <?php do_action( 'wp_after_body_open' ); ?>
   <?php wp_body_open(); ?>
-  <div id="wrapper" class="w-100 float-left">
-    <header id="header">
-
+  <div id="wrapper">
+    <header id="header" style="height:70px; background:blue">
+      đây là header
     </header><!-- /header -->
