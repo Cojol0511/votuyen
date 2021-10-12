@@ -4,14 +4,28 @@ $purple: #78089f;
 $red: #d6221d;
 $green: #09c750;
 
+$product-color-1: #0fb9b9;
+$product-color-2: #d17975;
+$product-color-3: #0d599f;
+$product-color-4: #b521b8;
+$product-color-5: #a88e29;
+
+$table-color-1: rgba(0, 0, 0, 0.05);
+$table-color-2: #d2ffff;
+$table-color-3: #ffcfcd;
+$table-color-4: #afd9ff;
+$table-color-5: #fda9ff;
+$table-color-6: #e2d6a7;
+
 @import "page-product-list";
+@import "page-remote-control";
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 img {
   max-width: 100%;
