@@ -1,0 +1,29 @@
+#footer{
+    background: #E9E9E9;
+    padding: 16px 0;
+    .fLeft{
+        font-size: $size3;
+        p{
+            margin: 0 !important;
+        }
+        .address{
+
+        }
+        .tel{
+
+        }
+        .email{
+
+        }
+    }
+    .fRight{
+        .fNav{
+            // max-width: 646px;
+            li{
+                font-size: $size3;
+                font-weight: bold;
+                margin-left: 40px;
+            }
+        }
+    }
+}
