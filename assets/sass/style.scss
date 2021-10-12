@@ -18,9 +18,9 @@ $table-color-5: #fda9ff;
 $table-color-6: #e2d6a7;
 
 @import "page-product-list";
-@import "page-remote-control";
+@import "page-detail-product";
 
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;

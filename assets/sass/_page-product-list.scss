@@ -1,11 +1,15 @@
 #page-product-list {
-  .banner-product .banner-text {
-    .text-sub-title:nth-child(2) {
-      color: $blue;
+  .banner-product {
+    background-color: #f5f5f5;
+    .banner-text {
+      .text-sub-title:nth-child(2) {
+        color: $blue;
+      }
     }
   }
 
   .main {
+    padding: 90px 0;
     .side-bar-product {
       li {
         height: 50px;
@@ -42,7 +46,7 @@
   }
 }
 #page-product-list,
-#page-remote-control {
+.page-detail-product {
   min-height: calc(100vh - 140px);
   .text-title {
     font-size: 48px;
@@ -53,14 +57,13 @@
   }
   .banner-product {
     height: 460px;
-    background-image: url("../images/page-product/banner-product.jpg");
+    background-image: url("../images/page-product/banner-product.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin-bottom: 80px;
     .banner-text {
       text-align: center;
       margin-bottom: 28px;

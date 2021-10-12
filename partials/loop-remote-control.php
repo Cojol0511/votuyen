@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<main id="page-remote-control">
+<main id="page-remote-control" class="page-detail-product">
   <section class="banner-product">
     <div class="banner-text">
       <h1 class="text-title">製品情報</h1>
@@ -47,23 +47,23 @@
       <div class="container">
         <h2 class="text-sub-title">特徴</h2>
         <ul class="feature-list">
-          <li><span>1.デュアルコアCPU</span>
+          <li><span>1. デュアルコアCPU</span>
           </li>
-          <li><span>2.最適なRF機能</span>
+          <li><span>2. 最適なRF機能</span>
           </li>
-          <li><span>3.高セキュリティハードウェア／ソフトウェア</span>
+          <li><span>3. 高セキュリティハードウェア／ソフトウェア</span>
           </li>
-          <li><span>4.RFコアの超低消費電力</span>
+          <li><span>4. RFコアの超低消費電力</span>
           </li>
-          <li><span>5.IP67防水ケースまたは非防水ケースのたくさんケースシリーズから選択可</span>
+          <li><span>5. IP67防水ケースまたは非防水ケースのたくさんケースシリーズから選択可</span>
           </li>
-          <li><span>6.バッテリータイプの多くの選択肢（CR2032、AAAx2、AAAx3、AAAx4、AAx2、AAx3、AAx4、AAx6</span>
+          <li><span>6. バッテリータイプの多くの選択肢（CR2032、AAAx2、AAAx3、AAAx4、AAx2、AAx3、AAx4、AAx6</span>
           </li>
 
         </ul>
       </div>
     </div>
-    <div class="table">
+    <div class="table-product">
       <div class="container">
         <h2 class="text-sub-title">仕様</h2>
         <table>
@@ -211,18 +211,18 @@
       <div class="container">
         <h2 class="text-sub-title">特徴</h2>
         <ul class="feature-list">
-          <li><span>1.デュアルコアCPU</span></li>
-          <li><span>2.最適なRF</span></li>
-          <li><span>3.安全性の高いハードウェア</span></li>
-          <li><span>4.RFコアの超低消費電力</span></li>
-          <li><span>5.IP67防水ケースまたは非防水ケースのたくさんケースシリーズから選択可</span></li>
-          <li><span>6.電源タイプ（DC 5V、DC 12V、DC 24V、AC100-200V、ソーラーパネル）のカスタマイズ可</span></li>
-          <li><span>7.出力タイプ（リレー、オープンコレクター、UART、RS232、SPI、USB ...）のカスタマイズ可</span></li>
-          <li><span>8.安全入力信号、制御信号のカスタマイズ</span></li>
+          <li><span>1. デュアルコアCPU</span></li>
+          <li><span>2. 最適なRF</span></li>
+          <li><span>3. 安全性の高いハードウェア</span></li>
+          <li><span>4. RFコアの超低消費電力</span></li>
+          <li><span>5. IP67防水ケースまたは非防水ケースのたくさんケースシリーズから選択可</span></li>
+          <li><span>6. 電源タイプ（DC 5V、DC 12V、DC 24V、AC100-200V、ソーラーパネル）のカスタマイズ可</span></li>
+          <li><span>7. 出力タイプ（リレー、オープンコレクター、UART、RS232、SPI、USB ...）のカスタマイズ可</span></li>
+          <li><span>8. 安全入力信号、制御信号のカスタマイズ</span></li>
         </ul>
       </div>
     </div>
-    <div class="table">
+    <div class="table-product">
       <div class="container">
         <h2 class="text-sub-title">仕様</h2>
         <table>
@@ -336,13 +336,13 @@
       <div class="container">
         <h2 class="text-sub-title">特徴</h2>
         <ul class="feature-list">
-          <li><span>1.より良い耐ノイズ性のための二重変調</span></li>
-          <li><span>2.高出力赤外線LED</span></li>
-          <li><span>3.高感度RxLED</span></li>
-          <li><span>4.たくさんケースシリーズから選択可</span></li>
-          <li><span>5.バッテリータイプと電源タイプはたくさんケースシリーズから選択可</span></li>
-          <li><span>6.出力タイプ（リレー、オープンコレクター、UART、RS232、SPI、USB ...）のカスタマイズ可</span></li>
-          <li><span>7.通信距離：屋内約15m、屋外約3m</span></li>
+          <li><span>1. より良い耐ノイズ性のための二重変調</span></li>
+          <li><span>2. 高出力赤外線LED</span></li>
+          <li><span>3. 高感度RxLED</span></li>
+          <li><span>4. たくさんケースシリーズから選択可</span></li>
+          <li><span>5. バッテリータイプと電源タイプはたくさんケースシリーズから選択可</span></li>
+          <li><span>6. 出力タイプ（リレー、オープンコレクター、UART、RS232、SPI、USB ...）のカスタマイズ可</span></li>
+          <li><span>7. 通信距離：屋内約15m、屋外約3m</span></li>
       </div>
     </div>
   </section>
@@ -420,13 +420,13 @@
       <div class="container">
         <h2 class="text-sub-title">特徴:</h2>
         <ul class="feature-list">
-          <li><span>1.電波と赤外線のハイブリッド方式のリモコンシステム</span></li>
-          <li><span>2.指向性／無指向性／通信距離の用途からモード選定可</span></li>
-          <li><span>3.ハイブリッドモードでより高いセキュリティ性</span></li>
-          <li><span>4.たくさんケースシリーズから選択可</span></li>
-          <li><span>5.バッテリータイプと電源タイプはたくさんケースシリーズから選択可</span></li>
-          <li><span>6.出力タイプ（リレー、オープンコレクター、UART、RS232、SPI、USB ...）のカスタマイズ可</span></li>
-          <li><span>7.通信距離：赤外線の屋内用15m、屋外用3m、電波の屋内外約300m　</span></li>
+          <li><span>1. 電波と赤外線のハイブリッド方式のリモコンシステム</span></li>
+          <li><span>2. 指向性／無指向性／通信距離の用途からモード選定可</span></li>
+          <li><span>3. ハイブリッドモードでより高いセキュリティ性</span></li>
+          <li><span>4. たくさんケースシリーズから選択可</span></li>
+          <li><span>5. バッテリータイプと電源タイプはたくさんケースシリーズから選択可</span></li>
+          <li><span>6. 出力タイプ（リレー、オープンコレクター、UART、RS232、SPI、USB ...）のカスタマイズ可</span></li>
+          <li><span>7. 通信距離：赤外線の屋内用15m、屋外用3m、電波の屋内外約300m　</span></li>
         </ul>
       </div>
     </div>
@@ -436,12 +436,12 @@
         <ul class="feature-list">
           <li><span>1. 特定小電力送信機</span></li>
           <li><span>2. 特定小電力受信機</span></li>
-          <li><span>3.有線から無線に変換</span></li>
+          <li><span>3. 有線から無線に変換</span></li>
           <li><span>4. 産業リモコン</span></li>
-          <li><span>5 . 無線リモコン</span></li>
+          <li><span>5. 無線リモコン</span></li>
           <li><span>6. ISMバンド／315MHz／426MHz／　429MHz／920MHz／2.4GHz</span></li>
           <li><span>7. カスタマイズ対応</span></li>
-          <li><span>8 . 特殊用途対応</span></li>
+          <li><span>8. 特殊用途対応</span></li>
         </ul>
       </div>
     </div>
