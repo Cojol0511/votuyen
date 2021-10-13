@@ -54,43 +54,62 @@ section.contact-form{
             font-size: $size3;
         }
     }
-    form{
-        .form-group{
-            max-width: 1016px;
-            display: flex;
-            justify-content: space-between;
-            margin: 0 auto;
-            margin-bottom: $size3;
-            label{
-                font-size: $size3;
-                font-weight: bold;
-                margin-right: 12px;
+    .form-place{
+        max-width: 1016px;
+        margin: 0 auto;
+
+        form#contactForm{
+            margin-bottom: $size1;
+            .form-group{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: $size3;
+                label{
+                    font-size: $size3;
+                    font-weight: bold;
+                    margin-right: 12px;
+                }
+                span.required-tag{
+                    margin-right: auto;
+                }
+                input{
+                    height: 60px;
+                }
+                textarea{
+                    height: 330px;
+                }
+                input,textarea{
+                    border: 1px solid black;
+                    width: 70%;
+                }
             }
-            span.required-tag{
-                margin-right: auto;
-            }
-            input,textarea{
-                width: 70%;
+            input.btn-cus{
+                margin-top: $size1;
+                
             }
         }
-        input.btn-cus{
-            margin-top: $size1;
-            
+        .box-guide{
+            margin-bottom: $size1;
+            .head{
+                background: $red-co;
+                padding: 24px;
+                p{
+                    font-size: $size3;
+                }
+            }
+            .foot{
+                padding: 30px 25px 50px 25px;
+                border: 1px solid black;
+                border-top:none;
+                p{
+                    font-size: $size3;
+                }
+            }
+        }
+    }
+    ul.recomend-cate{
+        li{
+            font-size: $size2;
         }
     }
 }
-
-    // label.required-tag{
-    //     position: relative;
-    //     &::after{
-    //         position: absolute;
-    //         content: '必須';
-    //         padding: 8px 20px;
-    //         width: 50px;
-    //         background: $red-co;
-    //         border-radius: 10px;
-    //         top: 0;
-    //         right: -50px;
-    //     }
-        
-    // }

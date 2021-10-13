@@ -1,10 +1,10 @@
 <?php /* Template Name: Home */ ?>
 <?php get_header(); ?>
 <section class="banner-home">
-    <div class="owl-carousel banner-wrapper">
-        <img src="assets/images/Banner.jpg" alt="">
-        <img src="assets/images/Banner.jpg" alt="">
-        <img src="assets/images/Banner.jpg" alt="">
+    <div data-carousel-items="1" data-loop="true" data-margin="0" class="owl-carousel banner-wrapper">
+        <img src="<?php bloginfo('template_directory'); ?>/assets/images/Banner.jpg" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/assets/images/Banner.jpg" alt="">
+        <img src="<?php bloginfo('template_directory'); ?>/assets/images/Banner.jpg" alt="">
     </div>
 </section>
 <section class="map-product">
@@ -24,33 +24,38 @@
 </section>
 <section class="cate-products position-relative">
     <div class="container">
-        <div class="cate-products d-flex flex-md-row flex-column-reverse justify-content-lg-between">
+        <div class="cate-slider d-flex flex-md-row flex-column-reverse justify-content-lg-between">
             <div class="title fit-content mt-3 mt-md-auto fw-bold ">
-                <a href="#" class="yellow-co yellow-co-hv">製品リスト</a>
+                <a href="#" class="yellow-co yellow-co-hv current-page">製品リスト</a>
             </div>
-            <div class="cate-tags owl-carousel d-flex justify-content-end">
+            <div data-margin="25" data-carousel-items="4" data-tablet="3" data-mobile="1" data-dots="false"
+                data-loop="true" class="cate-tags owl-carousel d-flex justify-content-end">
                 <div class="cate-item border rounded d-flex flex-column">
                     <a href="#">
-                        <img class="rounded" src="assets/images/cate1.jpg" alt="cate1_img">
-                        <p class="text-center py-2 fw-bold blue-co">無線リモコン</p>
+                        <img class="rounded" src="<?php bloginfo('template_directory'); ?>/assets/images/cate1.jpg"
+                            alt="cate1_img">
+                        <p class="text-center py-3 fw-bold blue-co">無線リモコン</p>
                     </a>
                 </div>
                 <div class="cate-item border rounded d-flex flex-column">
                     <a href="#">
-                        <img class="rounded" src="assets/images/cate1.jpg" alt="cate1_img">
-                        <p class="text-center py-2 fw-bold green-co">トランシーバー</p>
+                        <img class="rounded" src="<?php bloginfo('template_directory'); ?>/assets/images/cate2.jpg"
+                            alt="cate2_img">
+                        <p class="text-center py-3 fw-bold green-co">トランシーバー</p>
                     </a>
                 </div>
                 <div class="cate-item border rounded d-flex flex-column">
                     <a href="#">
-                        <img class="rounded" src="assets/images/cate1.jpg" alt="cate1_img">
-                        <p class="text-center py-2 fw-bold red-co">ワイヤレスシステム</p>
+                        <img class="rounded" src="<?php bloginfo('template_directory'); ?>/assets/images/cate3.jpg"
+                            alt="cate3_img">
+                        <p class="text-center py-3 fw-bold red-co">ワイヤレスシステム</p>
                     </a>
                 </div>
                 <div class="cate-item border rounded d-flex flex-column">
                     <a href="#">
-                        <img class="rounded" src="assets/images/cate1.jpg" alt="cate1_img">
-                        <p class="text-center py-2 fw-bold purple-co">スマートゲート</p>
+                        <img class="rounded" src="<?php bloginfo('template_directory'); ?>/assets/images/cate4.jpg"
+                            alt="cate4_img">
+                        <p class="text-center py-3 fw-bold purple-co">スマートゲート</p>
                     </a>
                 </div>
             </div>
@@ -62,19 +67,19 @@
         <h1 class="purple-co fw-bold text-center">用途事例</h1>
         <div class="list-examples row row-cols-1 row-cols-md-2 row-cols-lg-3">
             <div class="col">
-                <img src="assets/images/udung1.jpg" alt="">
+                <img src="<?php bloginfo('template_directory'); ?>/assets/images/udung1.jpg" alt="">
                 <p class="name blue-co">
                     無線リモコン
                 </p>
             </div>
             <div class="col">
-                <img src="assets/images/udung1.jpg" alt="">
+                <img src="<?php bloginfo('template_directory'); ?>/assets/images/udung2.jpg" alt="">
                 <p class="name red-co">
                     トランシーバー
                 </p>
             </div>
             <div class="col">
-                <img src="assets/images/udung1.jpg" alt="">
+                <img src="<?php bloginfo('template_directory'); ?>/assets/images/udung3.jpg" alt="">
                 <p class="name green-co">
                     ワイヤレスシステム
                 </p>
@@ -97,18 +102,20 @@
             お客様の事業、全社員の福利、社会の発展に貢献すること。
         </h2>
         <p class="detail">
-            <a class="green-co green-co-hv current-page" href="">会社概要の詳細</a>
+            <a class="green-co green-co-hv current-page" href="<?php echo home_url(); ?>/company">会社概要の詳細</a>
         </p>
     </div>
 </section>
-<section class="noti-company">
-    <div class="container">
-        <h1 class="text-white fw-bold">
-            新着情報
-            令和3年11月11日 ホームページを公開
-        </h1>
-    </div>
-</section>
+<a href="<?php echo home_url(); ?> /news">
+    <section class="noti-company">
+        <div class="container">
+            <h1 class="text-white fw-bold">
+                新着情報
+                令和3年11月11日 ホームページを公開
+            </h1>
+        </div>
+    </section>
+</a>
 <section class="tech-info">
     <div class="container">
         <h1 class="yellow-co fw-bold text-center">技術情報</h1>

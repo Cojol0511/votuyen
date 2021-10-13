@@ -1,3 +1,23 @@
+
+#bottom_to_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 9999999;
+    width: 50px;
+    height: 50px;
+    background: $red-co-50;
+    bottom: -100px;
+    right: 30px;
+    transition: .3s ease;
+    &:hover{
+        background: $red-co;
+    }
+    i{
+        font-size: $size3;
+    }
+}
 #footer{
     background: #E9E9E9;
     padding: 16px 0;

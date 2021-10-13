@@ -2,6 +2,7 @@
 $grey-co : #f7f7f7;
 $gray-bg :#F5F5F5;
 $red-co : #d6221d;
+$red-co-50 : #d6231d57;
 $red-co-hv : #aa1c17;
 $red-shadow-co : #d6231d36;
 $size1 : 48px;
@@ -74,7 +75,14 @@ a.current-page{
 
 body {
     font-family: 'Roboto', sans-serif;
-    // font-size: 16px;
+    padding-top: 135px;
+    
+}
+
+.container{
+    @media (min-width: 1200px) { 
+        max-width: 1228px !important;
+    }
 }
 
 .owl-dots{
@@ -94,6 +102,8 @@ button.owl-dot {
     // background:$red-shadow-co !important;
     border: 2px solid $red-co !important;
     margin-left: 12px;
+    transition: 0.2s;
+
     &:hover{
         background:$red-co !important;
     }
@@ -123,10 +133,5 @@ button.owl-dot {
     border-radius: 10px;
     border: none ;
 }
-// .sticky {
-//     position: fixed;
-//     top: 0;
-//     width: 100%;
-//     opacity: .9;
-//   }
+
   
