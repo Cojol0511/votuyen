@@ -1,0 +1,127 @@
+// $color-primary : #d6221d;
+$grey-co: #f7f7f7;
+$gray-bg: #f5f5f5;
+$red-co: #d6221d;
+$red-co-50: #d6231d57;
+$red-co-hv: #aa1c17;
+$red-shadow-co: #d6231d36;
+$size1: 48px;
+$size15: 42px;
+$size2: 36px;
+$size25: 28px;
+$size3: 24px;
+$size35: 18px;
+
+@import "layout/header";
+@import "layout/footer";
+@import "pages/home";
+@import "pages/company";
+@import "pages/contact";
+@import "reponsive";
+
+.red-co {
+  color: $red-co;
+}
+.red-co-hv:hover {
+  color: $red-co-hv;
+}
+.yellow-co {
+  color: #a06000;
+}
+.yellow-co-hv:hover {
+  color: #834e00;
+}
+.purple-co {
+  color: #78089f;
+}
+.purple-co-hv:hover {
+  color: #5f077c;
+}
+.green-co {
+  color: #09c750;
+}
+.green-co-hv:hover {
+  color: #08a542;
+}
+.blue-co {
+  color: #2905db;
+}
+.blue-co-hv:hover {
+  color: #1b00a3;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.current-page {
+  text-decoration: underline;
+  -webkit-text-underline-position: under;
+  -ms-text-underline-position: below;
+  text-underline-position: under;
+}
+
+.container {
+  @media (min-width: 1200px) {
+    max-width: 1228px !important;
+  }
+}
+
+.owl-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+button.owl-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  // background:$red-shadow-co !important;
+  border: 2px solid $red-co !important;
+  margin-left: 12px;
+  transition: 0.2s;
+
+  &:hover {
+    background: $red-co !important;
+  }
+  &.active {
+    background: $red-co !important;
+  }
+
+  @media (min-width: 992px) {
+    width: 23px;
+    height: 23px;
+    border-radius: 100%;
+  }
+}
+
+.required-tag {
+  color: white;
+  background: $red-co;
+  padding: 8px 20px;
+  border-radius: 15px;
+}
+.btn-cus {
+  padding: 21px 71px;
+  background: $red-co;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  border-radius: 10px;
+  border: none;
+}

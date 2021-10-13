@@ -1,0 +1,61 @@
+section.company-desc{
+    div.intro{
+        padding: $size1 0;
+        h1{
+            font-size: $size1;
+            margin-bottom: 12px;
+        }
+        p{
+            font-size: $size3;
+
+        }
+    }
+    div.info{
+        background: $gray-bg ;
+
+        padding: $size1 0;
+        h2:not(:first-child){
+            font-size: $size2;
+            margin-top:$size1;
+            margin-bottom:$size3;
+        }
+        p{
+            font-size: $size3;
+        }
+    }
+}
+
+section.company-profile{
+    .content{
+        padding: 80px 0;
+        .content1{
+            margin-bottom: $size3;
+            .text{
+                h1{
+                    margin-bottom: $size15;
+                }
+                .text-render{
+                    p,li{
+                        font-size: $size3;
+                    }
+                }
+            }
+        }
+        .content2{
+            h1{
+                margin-bottom:$size3 ;
+            }
+            .text{
+                li{
+                    font-size:$size3 ;
+                }
+            }
+        }
+    }
+    .address-ggmap{
+        line-height: 0;
+        iframe{
+            width: 100%;
+        }
+    }
+}
