@@ -1,10 +1,10 @@
 <section class="footer-top">
   <div class="container">
     <div class="menu">
-      <a href="">無線リモコン</a>
-      <a href="">トランシーバー</a>
-      <a href="">ワイヤレスシステム</a>
-      <a href="">スマートゲート</a>
+      <a class="current-page" href="">無線リモコン</a>
+      <a class="current-page" href="">トランシーバー</a>
+      <a class="current-page" href="">ワイヤレスシステム</a>
+      <a class="current-page" href="">スマートゲート</a>
     </div>
   </div>
 </section>
