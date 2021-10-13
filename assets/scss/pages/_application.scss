@@ -1,0 +1,57 @@
+#page-application {
+  .banner {
+    height: 491px;
+    background-image: url("../images/page-application/banner-application.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .text1Col,
+  .text2Col {
+    .text-sub-title {
+      font-size: 36px;
+      font-weight: bold;
+    }
+    .text-list {
+      list-style-type: disc;
+      margin-bottom: 1rem;
+      padding-left: 2rem;
+      li {
+        line-height: 50px;
+        font-size: 24px;
+      }
+    }
+  }
+  .text2Col {
+    .text-list {
+      display: flex;
+      flex-wrap: wrap;
+      li {
+        flex-basis: 50%;
+        line-height: 50px;
+        font-size: 24px;
+      }
+    }
+  }
+  .product-img {
+    object-fit: cover;
+    width: 100%;
+  }
+  section {
+    padding: 50px 0;
+    &:nth-child(4) {
+      background-color: #f5f5f5;
+    }
+  }
+  .header {
+    text-align: center;
+    .text-title {
+      font-size: 48px;
+      font-weight: bold;
+    }
+    .text-sub-title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+  }
+}
