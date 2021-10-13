@@ -27,7 +27,7 @@
 <body <?php body_class(); ?>>
   <?php do_action('wp_after_body_open'); ?>
   <?php wp_body_open(); ?>
-  <div id="header" class="bg-white" style="box-shadow: 1px 0px 6px 0px #00000061;">
+  <div id="header" class="bg-white" style="margin-top:<?php echo is_user_logged_in()? '31px' : '' ?>">
     <div class="container">
       <div class="d-flex justify-content-between">
         <div class="hLeft">

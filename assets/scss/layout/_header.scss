@@ -1,31 +1,32 @@
-#header{
-    padding: 11.5px 0;
-    position: fixed;
-    top: 0;
-    transition: .3s ease;
-    width: 100%;
-    z-index: 9999;
-    // height: 135px;
-    .hLeft{
-        // width: 50%;
-        .comp-name{
-            font-size: $size2;
-        }
-        .comp-tel{
-            font-size: $size15;
-        }
+#header {
+  padding: 11.5px 0;
+  position: fixed;
+  top: 0;
+  transition: 0.3s ease;
+  width: 100%;
+  z-index: 9999;
+  box-shadow: 1px 0px 6px 0px #00000061;
+  // height: 135px;
+  .hLeft {
+    // width: 50%;
+    .comp-name {
+      font-size: $size2;
     }
-
-    .hRight{
-        // max-width: 549px;
-        // width: 100%;        
-        font-weight: bold;
-
-        .nav{
-            font-size: $size25;
-            li{
-                margin-left:35px ;
-            }
-        }
+    .comp-tel {
+      font-size: $size15;
     }
+  }
+
+  .hRight {
+    // max-width: 549px;
+    // width: 100%;
+    font-weight: bold;
+
+    .nav {
+      font-size: $size25;
+      li {
+        margin-left: 35px;
+      }
+    }
+  }
 }

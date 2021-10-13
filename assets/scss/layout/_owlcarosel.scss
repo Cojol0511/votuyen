@@ -1,0 +1,34 @@
+.owl-carousel {
+  .owl-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  button.owl-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    // background:$red-shadow-co !important;
+    border: 2px solid $red-co !important;
+    margin-left: 12px;
+    transition: 0.2s;
+
+    &:hover {
+      background: $red-co !important;
+    }
+    &.active {
+      background: $red-co !important;
+    }
+
+    @media (min-width: 992px) {
+      width: 23px;
+      height: 23px;
+      border-radius: 100%;
+    }
+  }
+}
