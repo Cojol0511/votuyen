@@ -1,0 +1,46 @@
+section.content-tech-info{
+    margin-bottom: $size3;
+
+    h1{
+        font-size: $size3;
+        margin: 70px 0 44px 0;
+    }
+    .post-item{
+        border-radius: 15px;
+        padding: 24px 16px;
+        box-shadow: 0px 5px 13px 0px #00000021;
+        img{
+            margin-right: $size3;
+        }
+        .content{
+            p{
+                font-size: 18px;
+                margin-bottom: 12px;
+            }
+            p.title{
+                font-size: $size3;
+            }
+            
+        }
+    }
+    .tech-info-sidebar{
+        padding: $size35;
+        border-radius: 15px;
+        box-shadow: 0px 5px 13px 0px #00000021;
+        .sb-title{
+            font-size: $size3;
+            margin-bottom: $size3;
+        }
+        .post-item-recomend{
+            display: flex;
+            margin-bottom: $size3;
+
+            img{
+                margin-right: 12px;
+            }
+            .title{
+                font-size: 18px;
+            }
+        }
+    }
+}

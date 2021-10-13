@@ -13,9 +13,9 @@ jQuery(function ($) {
     };
     var header = document.getElementById("header");
     var toTop = document.getElementById("bottom_to_top");
-    console.log(toTop.style);
+    // console.log(toTop.style);
     function myFunction() {
-      console.log(this.scrollY);
+      // console.log(this.scrollY);
       if (this.scrollY > 100) {
         toTop.style.bottom = "30px";
       } else {

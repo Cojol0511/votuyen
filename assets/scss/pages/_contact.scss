@@ -57,7 +57,7 @@ section.contact-form {
     max-width: 1016px;
     margin: 0 auto;
 
-    form#contactForm {
+    div#contactForm {
       margin-bottom: $size1;
       .form-group {
         display: flex;
@@ -77,14 +77,37 @@ section.contact-form {
         textarea {
           height: 330px;
         }
-        input,
-        textarea {
-          border: 1px solid black;
+        .wpcf7-form-control-wrap{
           width: 70%;
         }
+        p.p70{
+          width: 70%;
+        }
+        input,textarea {
+          border: 1px solid black;
+          width: 100%;
+        }
       }
-      input.btn-cus {
-        margin-top: $size1;
+      // input.btn-cus {
+      //   margin-top: $size1;
+      //   margin: 0 auto;
+      //   display: block;
+      // }
+      .submit-wrapper{
+        width: 70%;
+        margin: 0 auto;
+        input.wpcf7-submit {
+          margin-top: $size1;
+          margin: 0 auto;
+          display: block;
+          padding: 21px 71px;
+          background: $red-co;
+          color: white;
+          font-weight: bold;
+          font-size: 24px;
+          border-radius: 10px;
+          border: none;
+        }
       }
     }
     .box-guide {
