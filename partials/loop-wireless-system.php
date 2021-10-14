@@ -4,7 +4,7 @@
     <div class="banner-text">
       <h1 class="text-title">製品情報</h1>
       <h2 class="text-sub-title">お客様のニーズに応え</h2>
-      <h2 class="text-sub-title">無線リモコン</h2>
+      <h2 class="text-sub-title">ワイヤレスシステム</h2>
     </div>
   </section>
 

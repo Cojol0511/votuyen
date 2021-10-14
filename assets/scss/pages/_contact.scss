@@ -46,7 +46,7 @@ section.contact-desc {
   }
 }
 section.contact-form {
-  padding: $size1 0;
+  padding-top: $size1;
   .contact-form-desc {
     margin-bottom: $size1;
     p {
@@ -77,13 +77,14 @@ section.contact-form {
         textarea {
           height: 330px;
         }
-        .wpcf7-form-control-wrap{
+        .wpcf7-form-control-wrap {
           width: 70%;
         }
-        p.p70{
+        p.p70 {
           width: 70%;
         }
-        input,textarea {
+        input,
+        textarea {
           border: 1px solid black;
           width: 100%;
         }
@@ -93,7 +94,7 @@ section.contact-form {
       //   margin: 0 auto;
       //   display: block;
       // }
-      .submit-wrapper{
+      .submit-wrapper {
         width: 70%;
         margin: 0 auto;
         input.wpcf7-submit {
@@ -127,11 +128,6 @@ section.contact-form {
           font-size: $size3;
         }
       }
-    }
-  }
-  ul.recomend-cate {
-    li {
-      font-size: $size2;
     }
   }
   .required-tag {

@@ -77,27 +77,4 @@
       }
     }
   }
-  .footer-top {
-    .menu {
-      display: flex;
-      justify-content: space-between;
-      margin: 48px auto;
-      a {
-        font-weight: bold;
-        font-size: 36px;
-        &:nth-child(1) {
-          color: $blue;
-        }
-        &:nth-child(2) {
-          color: $green;
-        }
-        &:nth-child(3) {
-          color: $red;
-        }
-        &:nth-child(4) {
-          color: $purple;
-        }
-      }
-    }
-  }
 }
