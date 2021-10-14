@@ -16,6 +16,10 @@ section.map-product{
         background-repeat: no-repeat;
         background-size: cover;
         height: 546px;
+        @media (max-width: 992px) { 
+            height: 162px;
+            
+        }
         .content{
             width: fit-content; 
             padding: 6px;
@@ -24,26 +28,24 @@ section.map-product{
             &-short{
                 max-width: 222px;
                 top: 12%;
-                @media (min-width: 768px) { 
-                    font-size: 30px;
-                }
-                @media (min-width: 992px) { 
-                    font-size: $size1;
+                font-size: $size1;
+                @media (max-width: 992px) { 
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    font-size: $size3;
                 }
             }
             &-medium{
                 max-width: 230px;
                 top: 21%;
                 left: 20.5%;
-                @media (min-width: 768px) { 
-                    font-size: 20px;
+                font-size: $size2;
+                max-width: 683px;
+                @media (max-width: 992px) { 
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    font-size: 12px;
                     max-width: 400px;
-
-                }
-                @media (min-width: 992px) { 
-                    font-size: $size2;
-                    max-width: 683px;
-
                 }
             }
             &-long{
@@ -51,15 +53,13 @@ section.map-product{
                 top: 53%;
                 left: 50%;
                 transform: translate(-50%, -50%);
-                @media (min-width: 768px) { 
-                    font-size: 20px;
+                font-size: $size2;
+                max-width: 815px;
+                @media (max-width: 992px) { 
+                    font-size: 14px;
                     max-width: 500px;
                 }
-                @media (min-width: 992px) { 
-                    font-size: $size2;
-                    max-width: 815px;
 
-                }
             }
         }
 
@@ -135,7 +135,11 @@ section.noti-company{
     h1{
         font-size: $size1;
         max-width: 615px;
+        @media (max-width: 992px) { 
+            font-size: $size1mb;
+
     }
+}
 }
 
 section.tech-info{

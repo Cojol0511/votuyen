@@ -85,4 +85,11 @@ jQuery(function ($) {
       return false;
     });
   });
+
+  console.log($('.pagenavi .current').text());
+  if ($('.pagenavi .current').text() == '1') {
+    $('.pagenavi').prepend('<a class="prev-fake"><</a>');
+  }
+
+
 });

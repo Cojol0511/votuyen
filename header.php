@@ -32,23 +32,23 @@
             <div class="d-flex justify-content-between">
                 <div class="hLeft">
                     <div class="d-flex">
-                        <div class="h-mb d-lg-none me-2 my-auto ">
-                            <i class="fas fa-bars fs-3"></i>
-                        </div>
+
                         <a href="<?php echo home_url(); ?>/">
-                            <img style="width: 42px;height: 42px;"
-                                src="<?php bloginfo('template_directory'); ?>/assets/images/logo.png" alt=""
-                                class="logo me-0 me-lg-2 ms-auto ms-md-0 ">
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/logo.png" alt=""
+                                class="logo me-2 ms-auto ms-md-0 ">
                         </a>
-                        <p class="text-center comp-name d-lg-block d-none mb-0">無線プラス株式会社</p>
+                        <p class="text-center comp-name mb-0">無線プラス株式会社</p>
                     </div>
-                    <h1 class="d-lg-block d-none fw-bold">Tel.<span class="comp-tel red-co mb-0">
+                    <h1 class="comp-tel fw-bold">Tel.<span class=" red-co mb-0">
                             070-9003-3177</span>
                     </h1>
 
                 </div>
                 <div class="hRight d-flex align-items-center">
-                    <ul class="nav d-md-flex d-none justify-content-between w-100">
+                    <div class="h-mb d-lg-none my-auto">
+                        <i class="fas fa-bars mb-menu"></i>
+                    </div>
+                    <ul class="nav d-lg-flex d-none justify-content-between w-100">
                         <li><a data-navurl="home" class="red-co red-co-hv" href="<?php echo home_url(); ?>/">ホーム</a>
                         </li>
                         <li><a data-navurl="product-list" class="yellow-co yellow-co-hv"

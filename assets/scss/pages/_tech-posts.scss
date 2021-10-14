@@ -1,21 +1,34 @@
 section.content-tech-info{
-    margin-bottom: $size3;
-
+    padding: 70px 0 36px 0;
     h1{
         font-size: $size3;
-        margin: 70px 0 44px 0;
+        margin-bottom:44px;
+        
     }
     .post-item{
+        margin-bottom: $size3;
         border-radius: 15px;
         padding: 24px 16px;
         box-shadow: 0px 5px 13px 0px #00000021;
-        img{
+        .wrapper{
             margin-right: $size3;
+            img{
+                width: 270px;
+                @media (max-width: 576px) { 
+                    width: 100%;
+                }
+                object-fit: cover;
+            }
         }
+        // img{
+        //     margin-right: $size3;
+        // }
         .content{
             p{
                 font-size: 18px;
                 margin-bottom: 12px;
+                @include line-limit(3);
+
             }
             p.title{
                 font-size: $size3;
@@ -23,24 +36,5 @@ section.content-tech-info{
             
         }
     }
-    .tech-info-sidebar{
-        padding: $size35;
-        border-radius: 15px;
-        box-shadow: 0px 5px 13px 0px #00000021;
-        .sb-title{
-            font-size: $size3;
-            margin-bottom: $size3;
-        }
-        .post-item-recomend{
-            display: flex;
-            margin-bottom: $size3;
 
-            img{
-                margin-right: 12px;
-            }
-            .title{
-                font-size: 18px;
-            }
-        }
-    }
 }

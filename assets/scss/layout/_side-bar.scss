@@ -1,0 +1,27 @@
+.tech-info-sidebar{
+    padding: $size35;
+    border-radius: 15px;
+    box-shadow: 0px 5px 13px 0px #00000021;
+    .sb-title{
+        font-size: $size3;
+        margin-bottom: $size3;
+    }
+    .post-item-recomend{
+        display: flex;
+        margin-bottom: $size3;
+        .wrapper{
+            margin-right: 12px;
+            img{
+                width: 100px;
+                object-fit: cover;
+            }
+        }
+        p{
+            @include line-limit(3);
+
+        }
+        .title{
+            font-size: 18px;
+        }
+    }
+}

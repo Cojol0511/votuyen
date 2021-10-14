@@ -23,6 +23,7 @@ $red-co: #d6221d;
 $red-co-50: #d6231d57;
 $red-co-hv: #aa1c17;
 $red-shadow-co: #d6231d36;
+
 $size1: 48px;
 $size15: 42px;
 $size2: 36px;
@@ -30,8 +31,28 @@ $size25: 28px;
 $size3: 24px;
 $size35: 18px;
 
+
+$size1mb: 24px;
+$size15mb: 21px;
+$size2mb: 18px;
+$size25mb: 14px;
+$size3mb: 12px;
+$size35mb: 9px;
+
+
+
+
+@mixin line-limit($num-line) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $num-line;
+  -webkit-box-orient: vertical;
+}
+
 @import "layout/header";
 @import "layout/footer";
+@import "layout/side-bar";
 @import "layout/owlcarosel";
 
 @import "pages/application";
@@ -49,12 +70,15 @@ body {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
+  @media (max-width: 992px) { 
+    margin-top: 90px;
 }
-img {
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
 }
+// img {
+//   max-width: 100%;
+//   height: auto;
+//   object-fit: cover;
+// }
 ul {
   padding: 0;
   margin: 0;
@@ -104,4 +128,30 @@ a.current-page {
 }
 .blue-co-hv:hover {
   color: #1b00a3;
+}
+.text-black {
+  color: black;
+}
+.pagenavi{
+  line-height: 2;
+  margin-top: $size3;
+  *{
+    margin-right: 28px;    
+  }
+  span.current{
+    background: $red-co;
+    border-radius: 4px;
+    padding: 6px 12px;
+    color: white;
+  }
+  .next,.prev {
+    color: $red-co;
+  }
+  .prev-fake{
+    cursor: default;
+  }
+  a{
+    color: #515151;
+  }
+
 }

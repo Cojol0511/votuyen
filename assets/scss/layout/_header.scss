@@ -9,11 +9,23 @@
   // height: 135px;
   .hLeft {
     // width: 50%;
+    .logo{
+      width: 42px;height: 42px;
+      @media (max-width: 992px) { 
+        width: $size3;height: $size3;
+    }
+    }
     .comp-name {
       font-size: $size2;
+      @media (max-width: 992px) { 
+        font-size: 20px;
+      }
     }
     .comp-tel {
       font-size: $size15;
+      @media (max-width: 992px) { 
+        font-size: $size3;
+    }
     }
   }
 
@@ -28,5 +40,8 @@
         margin-left: 35px;
       }
     }
+  }
+  .mb-menu{
+    font-size: $size25;
   }
 }
