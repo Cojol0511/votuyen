@@ -2,9 +2,9 @@
 <main id="page-remote-control" class="page-detail-product">
   <section class="banner-product">
     <div class="banner-text">
-      <h1 class="text-title">製品情報</h1>
-      <h2 class="text-sub-title">お客様のニーズに応え</h2>
-      <h2 class="text-sub-title">ワイヤレスシステム</h2>
+      <h1 class="text-title yellow-co">製品情報</h1>
+      <h2 class="text-sub-title purple-co">お客様のニーズに応え</h2>
+      <h2 class="text-sub-title blue-co">ワイヤレスシステム</h2>
     </div>
   </section>
 
@@ -14,19 +14,19 @@
       <div class="container">
         <div class="row">
           <h1 class="text-title">1. 緊急通報システム</h1>
-          <div class="col-3">
+          <div class="col-md-3">
             <div class="menu">
               <ul>
-                <li>
+                <li class="w-100">
                   <h2 class="text-menu">子機型番: EmCS01</h2>
                 </li>
-                <li>
+                <li class="w-100">
                   <h2 class="text-menu">親機型番: EmPS01</h2>
                 </li>
               </ul>
             </div>
           </div>
-          <div class="col-9 text-end">
+          <div class="col-md-9 text-center text-md-end">
             <img class="product-img"
               src="<?php bloginfo('template_url'); ?>/assets/images/page-product/wireless-system-part1.jpg" alt="">
           </div>
@@ -68,10 +68,10 @@
       <div class="container">
         <div class="row">
           <h1 class="text-title">2. 遠隔監視システム</h1>
-          <div class="col-3">
+          <div class="col-md-3">
             <div class="menu">
               <ul>
-                <li>
+                <li class="w-100">
                   <h2 class="text-menu">型番: ReMS01</h2>
                 </li>
               </ul>
@@ -120,10 +120,10 @@
       <div class="container">
         <div class="row">
           <h1 class="text-title">3. センサーネットワークシステム</h1>
-          <div class="col-3">
+          <div class="col-md-3">
             <div class="menu">
               <ul>
-                <li>
+                <li class="w-100">
                   <h2 class="text-menu">型番: SeNS01</h2>
                 </li>
               </ul>
