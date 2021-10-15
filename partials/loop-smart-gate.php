@@ -2,9 +2,9 @@
 <main id="page-transceiver" class="page-detail-product">
   <section class="banner-product">
     <div class="banner-text">
-      <h1 class="text-title">製品情報</h1>
-      <h2 class="text-sub-title">太陽光電源使用</h2>
-      <h2 class="text-sub-title">スマートチェーンゲート</h2>
+      <h1 class="text-title yellow-co">製品情報</h1>
+      <h2 class="text-sub-title purple-co">太陽光電源使用</h2>
+      <h2 class="text-sub-title blue-co">スマートチェーンゲート</h2>
     </div>
   </section>
 
@@ -13,17 +13,17 @@
     <div class="description">
       <div class="container">
         <div class="row">
-          <div class="col-6 d-flex flex-column justify-content-center">
-            <h1 class="text-title">スマートチェーンゲート</h1>
-            <div class="menu">
+          <div class="col-md-6 d-flex flex-column justify-content-center">
+            <h1 class="text-title mt-4 mt-md-4">スマートチェーンゲート</h1>
+            <div class="menu mb-4 mb-md-4">
               <ul>
-                <li>
+                <li class="w-100">
                   <h2 class="text-menu">型番: EcoCG01</h2>
                 </li>
               </ul>
             </div>
           </div>
-          <div class="col-6 text-end">
+          <div class="col-md-6 text-center text-md-end">
             <img class="product-img"
               src="<?php bloginfo('template_url'); ?>/assets/images/page-product/smart-gate-part1.jpg" alt="">
           </div>
