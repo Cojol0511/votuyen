@@ -86,10 +86,8 @@ jQuery(function ($) {
     });
   });
 
-  console.log($('.pagenavi .current').text());
-  if ($('.pagenavi .current').text() == '1') {
-    $('.pagenavi').prepend('<a class="prev-fake"><</a>');
+  console.log($(".pagenavi .current").text());
+  if ($(".pagenavi .current").text() == "1") {
+    $(".pagenavi").prepend('<a class="prev-fake"><</a>');
   }
-
-
 });

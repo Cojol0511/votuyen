@@ -4,28 +4,30 @@
   top: 0;
   transition: 0.3s ease;
   width: 100%;
-  z-index: 9999;
+  z-index: 2;
   box-shadow: 1px 0px 6px 0px #00000061;
   // height: 135px;
   .hLeft {
     // width: 50%;
-    .logo{
-      width: 42px;height: 42px;
-      @media (max-width: 992px) { 
-        width: $size3;height: $size3;
-    }
+    .logo {
+      width: 42px;
+      height: 42px;
+      @media (max-width: 992px) {
+        width: $size3;
+        height: $size3;
+      }
     }
     .comp-name {
       font-size: $size2;
-      @media (max-width: 992px) { 
+      @media (max-width: 992px) {
         font-size: 20px;
       }
     }
     .comp-tel {
       font-size: $size15;
-      @media (max-width: 992px) { 
+      @media (max-width: 992px) {
         font-size: $size3;
-    }
+      }
     }
   }
 
@@ -41,7 +43,7 @@
       }
     }
   }
-  .mb-menu{
+  .mb-menu {
     font-size: $size25;
   }
 }

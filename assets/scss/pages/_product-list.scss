@@ -1,22 +1,17 @@
 #page-product-list {
-  .banner-product {
-    background-color: #f5f5f5;
-    .banner-text {
-      .text-sub-title:nth-child(2) {
-        color: $blue;
-      }
-    }
-  }
-
   .main {
-    padding: 90px 0;
+    padding: 90px 0 48px;
+    background-color: #f5f5f5;
     .side-bar-product {
+      list-style-type: disc;
+      padding-left: 2rem;
       li {
         height: 50px;
       }
     }
     .product {
       border: 1px solid #b0b0b0;
+      background-color: white;
       border-radius: 15px;
       text-align: center;
       padding: 15px 10px 10px;
@@ -29,6 +24,9 @@
         font-size: 36px;
         font-weight: bold;
         margin-top: 20px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
     }
     .col-6:nth-child(1) .product .product-name {
@@ -45,6 +43,38 @@
     }
   }
 }
+@media (max-width: 576px) {
+  #page-product-list {
+    .main {
+      padding: 48px 0;
+      .button-title {
+        padding: 15px 20px;
+        margin-bottom: 36px;
+        border: 1px solid #b0b0b0;
+        border-radius: 15px;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .side-bar-product {
+        li {
+          height: 50px;
+        }
+      }
+      .product {
+        padding: 7px 5px 5px;
+        &-img {
+          height: 125px;
+        }
+        &-name {
+          font-size: 18px;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
 #page-product-list,
 .page-detail-product {
   min-height: calc(100vh - 140px);
@@ -58,9 +88,9 @@
   .banner-product {
     height: 460px;
     background-image: url("../images/page-product/banner-product.png");
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -68,12 +98,29 @@
       text-align: center;
       margin-bottom: 28px;
       font-weight: 700;
-      .text-title {
-        color: $brown;
-        font-weight: 700;
-      }
+      .text-title,
       .text-sub-title {
         font-weight: 700;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  #page-product-list,
+  .page-detail-product {
+    .text-title {
+      font-size: 24px;
+    }
+    .text-sub-title {
+      font-size: 18px;
+    }
+    .banner-product {
+      height: 180px;
+      .banner-text {
+        margin-bottom: 10px;
+        & * {
+          margin: 0;
+        }
       }
     }
   }
