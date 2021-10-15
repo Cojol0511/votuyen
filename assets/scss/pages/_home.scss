@@ -6,30 +6,44 @@ section.banner-home{
     //     background-size: cover;
     //     height: 572px;
     // }
+    img{
+        object-fit: cover;
+        height: 600px;
+        @media (max-width: 992px) { 
+            height: 428px;
+        }
+    }
 }
 
 section.map-product{
     .map-product-wrapper{
         // padding: 68px 0;
-        background-image: url("../images/bannerMap.png");
+        background-image: url("../images/page-home/bannerMap.png");
         background-position: center; 
         background-repeat: no-repeat;
         background-size: cover;
         height: 546px;
-        @media (max-width: 992px) { 
+        @media (max-width: 768px) { 
             height: 162px;
-            
+        }
+        @media (max-width: 992px) { 
+            height: 273px;
         }
         .content{
             width: fit-content; 
-            padding: 6px;
+            padding: 16px;
             position: absolute;
             font-size: 16px;
+            border-radius: 15px;
+            @media (max-width: 992px) { 
+                padding: 6px 10px;
+            }
             &-short{
-                max-width: 222px;
+                max-width: 225px;
                 top: 12%;
                 font-size: $size1;
-                @media (max-width: 992px) { 
+                @media (max-width: 992px) {
+                    top: 20%;
                     left: 50%;
                     transform: translate(-50%, -50%);
                     font-size: $size3;
@@ -42,6 +56,7 @@ section.map-product{
                 font-size: $size2;
                 max-width: 683px;
                 @media (max-width: 992px) { 
+                    top: 40%;
                     left: 50%;
                     transform: translate(-50%, -50%);
                     font-size: 12px;
@@ -49,6 +64,7 @@ section.map-product{
                 }
             }
             &-long{
+                text-align: end;
                 max-width: 300px;
                 top: 53%;
                 left: 50%;
@@ -56,6 +72,7 @@ section.map-product{
                 font-size: $size2;
                 max-width: 815px;
                 @media (max-width: 992px) { 
+                    top: 70%; 
                     font-size: 14px;
                     max-width: 500px;
                 }
@@ -66,19 +83,45 @@ section.map-product{
     }
 }
 section.cate-products{
-    top:-90px;
+
+    top:-100px;
+    @media (max-width: 992px) { 
+        top:0;
+        padding: 24px 0 44px;
+    }
+    .wrapper{
+        // height: 220px;
+    .title{
+        font-size: $size3;
+        @media (max-width: 992px) {
+            text-align: center;
+        }
+    }
     .cate-tags{
-        height: 220px;
         max-width: 1042px;
         .cate-item{
-            box-shadow: 0px 3px 6px 0px #d6d6d6;
+            box-shadow: 0px 9px 19px 0px #d6d6d6;
+            background: white;
+            @media (max-width: 576px) { 
+    
+            }
+            @media (max-width: 992px) { 
+                margin-bottom: $size3;
+            }
             img{
+                width: 100%;
                 padding: 10px 10px 0 10px;
                 height: 150px;
                 object-fit: contain;
                 background: white;
+                }
+                p{
+                    font-size: $size3;
+                    @media (max-width: 992px) { 
+                        font-size: $size3mb;
+                    }
+                }
             }
-      
         }
     }
 }
@@ -87,6 +130,10 @@ section.application{
     padding-bottom: 80px;
     h1{
         margin-bottom: $size1;
+        @media (max-width: 992px) { 
+            margin-bottom: $size1mb;
+            font-size: $size1mb;
+        }
     }
     .list-examples{
         margin-bottom: 34px;
@@ -98,16 +145,25 @@ section.application{
             font-size: $size2;
             font-weight: bold;
             text-align: center;
+            @media (max-width: 992px) { 
+                font-size: $size2mb;
+            }
         }
 
     }
     .see-more{
         font-size: $size3;
+        @media (max-width: 992px) { 
+            font-size: $sizedf;
+        }
     }
 }
 
 section.profile-company{
     padding: 68px 0;
+    @media (max-width: 992px) { 
+        padding: 32px 0;
+    }
     background:$gray-bg ;
     h1,h2{
        max-width: 980px;
@@ -116,9 +172,17 @@ section.profile-company{
     }
     h1{
         font-weight: bold;
+        font-size: $size1;
+        @media (max-width: 992px) { 
+            font-size: $size1mb;
+        }
     }
     h2{
         margin-bottom: $size3;
+        font-size: $size2;
+        @media (max-width: 992px) { 
+            font-size: $size2mb;
+        }
     }
     p{
         margin-top: $size3;
@@ -126,26 +190,45 @@ section.profile-company{
 }
 
 section.noti-company{
-    padding: 63px 0;
-        background-image: url("../images/bg-deco.jpg");
+        padding: 63px 0;    
+        background-image: url("../images/page-home/bg-decor.jpg");
         background-position: center; 
         background-repeat: no-repeat;
         background-size: cover;
         height: 593px;
+        font-weight: bold;
+        color: white;
+        @media (max-width: 992px) { 
+            height: 176px;
+            padding: 54px;
+        }
+    
     h1{
         font-size: $size1;
         max-width: 615px;
         @media (max-width: 992px) { 
             font-size: $size1mb;
-
+        }
     }
-}
+    p{
+        font-size: $size2;
+        @media (max-width: 992px) { 
+            font-size: $size2mb;
+        }
+    }
+
 }
 
 section.tech-info{
     padding: 80px 0 ;
+    @media (max-width: 992px) { 
+        padding: $size1 0;
+}
     h1{
         margin-bottom: $size1;
+        @media (max-width: 992px) { 
+            margin-bottom: $size1mb;
+    }
     }
     .tech-info-list{
         li{
@@ -155,6 +238,10 @@ section.tech-info{
             text-underline-position: under; 
             margin-bottom: 30px;
             font-size: $size3;
+            @media (max-width: 992px) { 
+                margin-bottom: 12px;
+                font-size: $size35;
+        }
         }
     }
 } 
