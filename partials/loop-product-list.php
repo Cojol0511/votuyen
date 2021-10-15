@@ -89,32 +89,40 @@
         <div class="col-md-8">
           <div class="row g-2 g-md-4">
             <div class="col-6">
-              <div class="product">
-                <img class="product-img"
-                  src="<?php bloginfo('template_url'); ?>/assets/images/page-product/product-1.png" alt="">
-                <div class="product-name">無線リモコン</div>
-              </div>
+              <a href="<?php echo get_home_url(); ?>/remote-control/">
+                <div class="product">
+                  <img class="product-img"
+                    src="<?php bloginfo('template_url'); ?>/assets/images/page-product/product-1.png" alt="">
+                  <div class="product-name">無線リモコン</div>
+                </div>
+              </a>
             </div>
             <div class="col-6">
-              <div class="product">
-                <img class="product-img"
-                  src="<?php bloginfo('template_url'); ?>/assets/images/page-product/product-2.png" alt="">
-                <div class="product-name">トランシーバー</div>
-              </div>
+              <a href="<?php echo get_home_url(); ?>/transceiver/">
+                <div class="product">
+                  <img class="product-img"
+                    src="<?php bloginfo('template_url'); ?>/assets/images/page-product/product-2.png" alt="">
+                  <div class="product-name">トランシーバー</div>
+                </div>
+              </a>
             </div>
             <div class="col-6">
-              <div class="product">
-                <img class="product-img"
-                  src="<?php bloginfo('template_url'); ?>/assets/images/page-product/product-3.png" alt="">
-                <div class="product-name">ワイヤレスシステム</div>
-              </div>
+              <a href="<?php echo get_home_url(); ?>/wireless-system/">
+                <div class="product">
+                  <img class="product-img"
+                    src="<?php bloginfo('template_url'); ?>/assets/images/page-product/product-3.png" alt="">
+                  <div class="product-name">ワイヤレスシステム</div>
+                </div>
+              </a>
             </div>
             <div class="col-6">
-              <div class="product">
-                <img class="product-img"
-                  src="<?php bloginfo('template_url'); ?>/assets/images/page-product/product-4.png" alt="">
-                <div class="product-name">スマートゲート</div>
-              </div>
+              <a href="<?php echo get_home_url(); ?>/smart-gate/">
+                <div class="product">
+                  <img class="product-img"
+                    src="<?php bloginfo('template_url'); ?>/assets/images/page-product/product-4.png" alt="">
+                  <div class="product-name">スマートゲート</div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
