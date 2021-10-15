@@ -1,25 +1,49 @@
 jQuery(function ($) {
   $(document).ready(function () {
+
+    // mobile menu
+    var mbMenu = document.getElementById("mb-menu");
+    $('i.mb-menu').click(function () {
+      if (mbMenu.style.width == '100%') {
+        // $(mbMenu).hide();
+        mbMenu.style.width = '0';
+        $('#mb-menu .nav')[0].style.left = '-100px';
+        $(this).toggleClass('fa-times fa-bars');
+        $(this).css("transform", " rotate(0)");
+      } else {
+        // $(mbMenu).show();
+        mbMenu.style.width = '100%';
+        $('#mb-menu .nav')[0].style.left = '0';
+        $(this).toggleClass('fa-bars fa-times');
+        $(this).css("transform", " rotate(180deg)");
+
+      }
+    })
+
+
+    // active current page
     $("a[data-navUrl]").each(function () {
       if ($(this).data("navurl") == current_slug) {
-        $(this).addClass("current-page");
+        $(this).addClass("current-page fw-bold");
       }
     });
-  });
 
-  $(document).ready(function () {
+    // scroll effect header , bottomToTop , Btn-call
     window.onscroll = function () {
       myFunction();
     };
     var header = document.getElementById("header");
     var toTop = document.getElementById("bottom_to_top");
+    var callMe = document.getElementById("call_me");
     // console.log(toTop.style);
     function myFunction() {
       // console.log(this.scrollY);
       if (this.scrollY > 100) {
         toTop.style.bottom = "30px";
+        callMe.style.left = "30px";
       } else {
         toTop.style.bottom = "-100px";
+        callMe.style.left = "-100px";
       }
 
       if (this.oldScroll > this.scrollY) {
@@ -35,61 +59,48 @@ jQuery(function ($) {
       }
       this.oldScroll = this.scrollY;
     }
-  });
-  if ($(".owl-carousel").length) {
-    $(".owl-carousel").each(function () {
-      var owl = $(".owl-carousel");
 
-      console.log($(this).data("carousel-items"));
-      $(this).owlCarousel({
-        margin: $(this).data("margin"),
-        autoplayTimeout: $(this).data("autotime"),
-        smartSpeed: $(this).data("speed"),
-        autoHeight: $(this).data("autoheight"),
-        autoplay: $(this).data("autoplay"),
-        items: $(this).data("carousel-items"),
-        nav: $(this).data("nav"),
-        dots: $(this).data("dots"),
-        center: $(this).data("center"),
-        loop: $(this).data("loop"),
-        responsive: {
-          0: {
-            items: $(this).data("mobile"),
+    // owlcarosel
+    if ($(".owl-carousel").length) {
+      $(".owl-carousel").each(function () {
+        var owl = $(".owl-carousel");
+        $(this).owlCarousel({
+          margin: $(this).data("margin"),
+          autoplayTimeout: $(this).data("autotime"),
+          smartSpeed: $(this).data("speed"),
+          autoHeight: $(this).data("autoheight"),
+          autoplay: $(this).data("autoplay"),
+          // autoplay: true,
+          items: $(this).data("carousel-items"),
+          nav: $(this).data("nav"),
+          dots: $(this).data("dots"),
+          center: $(this).data("center"),
+          loop: $(this).data("loop"),
+          responsive: {
+            0: {
+              items: $(this).data("mobile"),
+            },
+            768: {
+              items: $(this).data("tablet"),
+              margin: $(this).data("margintb"),
+            },
+            992: {
+              items: $(this).data("desktop-small"),
+              margin: $(this).data("margintb"),
+            },
+            1680: {
+              items: $(this).data("desktop"),
+              margin: $(this).data("margintb"),
+            },
           },
-          768: {
-            items: $(this).data("tablet"),
-            margin: $(this).data("margintb"),
-          },
-          992: {
-            items: $(this).data("desktop-small"),
-            margin: $(this).data("margintb"),
-          },
-          1680: {
-            items: $(this).data("desktop"),
-            margin: $(this).data("margintb"),
-          },
-        },
+        });
       });
-    });
-  }
-  $(document).ready(function () {
-    $(window).scroll(function () {
-      if ($(this).scrollTop() > 100) {
-        $("#goTop").fadeIn();
-      } else {
-        $("#goTop").fadeOut();
-      }
-    });
-    $("#goTop").click(function () {
-      $("html, body").animate({ scrollTop: 0 }, 600);
-      return false;
-    });
+    }
+
+
+    if ($('.pagenavi .current').text() == '1') {
+      $('.pagenavi').prepend('<a class="prev-fake"><</a>');
+    }
+
   });
-
-  console.log($('.pagenavi .current').text());
-  if ($('.pagenavi .current').text() == '1') {
-    $('.pagenavi').prepend('<a class="prev-fake"><</a>');
-  }
-
-
 });

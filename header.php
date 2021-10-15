@@ -5,14 +5,7 @@
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <!-- Page Title 
-    ================================================== -->
+    <!-- Page Title ================================================== -->
     <title><?php bloginfo('name'); ?> | <?php is_front_page() ? bloginfo('description') : wp_title(''); ?></title>
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
@@ -21,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" type="image/png" href="<?php bloginfo('template_directory'); ?>/assets/images/logo.jpg" />
     <?php wp_head(); ?>
 </head>
 
@@ -32,15 +26,14 @@
             <div class="d-flex justify-content-between">
                 <div class="hLeft">
                     <div class="d-flex">
-
                         <a href="<?php echo home_url(); ?>/">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/logo.png" alt=""
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/logo.jpg" alt=""
                                 class="logo me-2 ms-auto ms-md-0 ">
                         </a>
-                        <p class="text-center comp-name mb-0">無線プラス株式会社</p>
+                        <p class="text-center fw-bold comp-name mb-0">無線プラス株式会社</p>
                     </div>
-                    <h1 class="comp-tel fw-bold">Tel.<span class=" red-co mb-0">
-                            070-9003-3177</span>
+                    <h1 class="comp-tel fw-bold"><a href="tel:07090033177">Tel.<span class=" red-co mb-0">
+                                070-9003-3177</span></a>
                     </h1>
 
                 </div>
@@ -65,4 +58,18 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div id="mb-menu">
+        <ul class="nav d-block w-100">
+            <li><a data-navurl="home" class="red-co red-co-hv" href="<?php echo home_url(); ?>/">ホーム</a>
+            </li>
+            <li><a data-navurl="product-list" class="yellow-co yellow-co-hv"
+                    href="<?php echo home_url(); ?>/product-list">製品情報</a></li>
+            <li><a data-navurl="application" class="purple-co purple-co-hv"
+                    href="<?php echo home_url(); ?>/application">用途事例</a></li>
+            <li><a data-navurl="company" class="green-co green-co-hv" href="<?php echo home_url(); ?>/company">会社概要</a>
+            </li>
+            <li><a data-navurl="contact" class="blue-co blue-co-hv" href="<?php echo home_url(); ?>/contact">問い合わせ</a>
+            </li>
+        </ul>
     </div>

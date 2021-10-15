@@ -38,8 +38,14 @@ $size2mb: 18px;
 $size25mb: 14px;
 $size3mb: 12px;
 $size35mb: 9px;
+$sizedf:16px;
 
-
+h1{
+  font-size: $size1 !important;
+}
+h2{
+  font-size: $size2 !important;
+}
 
 
 @mixin line-limit($num-line) {
@@ -74,6 +80,8 @@ body {
     margin-top: 90px;
 }
 }
+
+
 // img {
 //   max-width: 100%;
 //   height: auto;
@@ -91,6 +99,10 @@ p {
 
 a {
   text-decoration: none;
+  color: black;
+  &:hover{
+    color: black;
+  }
 }
 a.current-page {
   text-decoration: underline;
@@ -132,6 +144,20 @@ a.current-page {
 .text-black {
   color: black;
 }
+$hv-scale:1.05;
+.imghover {
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: scale($hv-scale);
+  }
+}
+
+.imghover-op {
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
 .pagenavi{
   line-height: 2;
   margin-top: $size3;

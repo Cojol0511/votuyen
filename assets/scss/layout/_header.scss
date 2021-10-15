@@ -1,10 +1,10 @@
 #header {
   padding: 11.5px 0;
   position: fixed;
-  top: 0;
   transition: 0.3s ease;
   width: 100%;
   z-index: 9999;
+  top: 0;
   box-shadow: 1px 0px 6px 0px #00000061;
   // height: 135px;
   .hLeft {
@@ -32,7 +32,7 @@
   .hRight {
     // max-width: 549px;
     // width: 100%;
-    font-weight: bold;
+    // font-weight: bold;
 
     .nav {
       font-size: $size25;
@@ -43,5 +43,29 @@
   }
   .mb-menu{
     font-size: $size25;
+    transform: rotate(0);
+    transition:0.3s ease;
+
+  }
+}
+
+
+#mb-menu{
+  padding-top: 138px;
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background: rgba(0, 0, 0, 0.938);
+  transition:0.3s ease;
+  text-align: center;
+  .nav{
+    position: relative;
+    left: -100px;
+    transition:0.6s ease;
+    li{
+      margin-bottom: $size3;
+    }
   }
 }
