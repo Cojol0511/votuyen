@@ -134,7 +134,7 @@
           }
           li {
             margin: 5px 0;
-            flex-basis: calc(100% / 3);
+            width: calc(100% / 3);
           }
         }
         .img-bottom {
@@ -151,6 +151,7 @@
         padding: 12px 0;
         table {
           width: unset;
+          margin: 12px 0;
           td {
             min-width: 200px;
             padding: 4px;
@@ -167,5 +168,11 @@
         margin-bottom: 12px;
       }
     }
+  }
+}
+//respone table not silebar scroll x when in screen desktop
+@media (min-width: 576px) {
+  .page-detail-product .product .table-product .table-responsive {
+    overflow-x: unset;
   }
 }
