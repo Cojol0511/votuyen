@@ -120,7 +120,7 @@
     }
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .page-detail-product {
     .product {
       .description {
@@ -172,7 +172,7 @@
   }
 }
 //respone table not silebar scroll x when in screen desktop
-@media (min-width: 576px) {
+@media (min-width: 767px) {
   .page-detail-product .product .table-product .table-responsive {
     overflow-x: unset;
   }
