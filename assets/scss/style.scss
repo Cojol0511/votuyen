@@ -81,12 +81,13 @@ body {
 }
 }
 
+p.detail{
+  font-size: $size3;
+  @media (max-width: 992px) { 
+      font-size: $sizedf;
+  }
+}
 
-// img {
-//   max-width: 100%;
-//   height: auto;
-//   object-fit: cover;
-// }
 ul {
   padding: 0;
   margin: 0;
@@ -179,5 +180,8 @@ $hv-scale:1.05;
   a{
     color: #515151;
   }
+}
 
+.wpcf7-response-output{
+  display: none;
 }

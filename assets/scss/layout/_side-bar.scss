@@ -12,13 +12,15 @@
         .wrapper{
             margin-right: 12px;
             img{
+                border-radius: 10px;
                 width: 100px;
                 object-fit: cover;
             }
         }
-        p{
-            @include line-limit(3);
-
+        p.title{
+            a{
+                @include line-limit(2);
+            }
         }
         .title{
             font-size: 18px;

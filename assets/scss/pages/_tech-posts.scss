@@ -13,6 +13,7 @@ section.content-tech-info{
         .wrapper{
             margin-right: $size3;
             img{
+                border-radius: 10px;
                 width: 270px;
                 @media (max-width: 576px) { 
                     width: 100%;
@@ -27,11 +28,11 @@ section.content-tech-info{
             p{
                 font-size: 18px;
                 margin-bottom: 12px;
-                @include line-limit(3);
-
+                @include line-limit(2);
             }
             p.title{
                 font-size: $size3;
+                
             }
             
         }

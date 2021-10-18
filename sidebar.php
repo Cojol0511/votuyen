@@ -1,11 +1,12 @@
 <?php
 $sticky = get_option('sticky_posts');
 $args = array(
-	'post_type' => 'post',
-	'posts_per_page' => 3,
-	'orderby' => 'date',
-	'order' => 'DESC',
-	'post__in' => $sticky, // get post sticky
+    'post_type' => 'post',
+    'posts_per_page' => 5,
+    'orderby' => 'rand',
+    'post__in' => $sticky, // get post sticky
+    'ignore_sticky_posts' => 1
+
 );
 $the_query = new WP_Query($args);
 ?>

@@ -13,8 +13,7 @@ $args = array(
 $the_query = new WP_Query($args);
 ?>
 <section class="banner-home">
-    <div data-carousel-items="1" data-loop="true" data-autoplay="true" data-autotime="3000" data-margin="0"
-        class="owl-carousel banner-wrapper">
+    <div data-carousel-items="1" data-loop="true" data-autotime="3000" class="owl-carousel banner-wrapper">
         <img src="<?php bloginfo('template_directory'); ?>/assets/images/page-home/Banner.jpg" alt="">
         <img src="<?php bloginfo('template_directory'); ?>/assets/images/page-home/Banner2.jpg" alt="">
         <img src="<?php bloginfo('template_directory'); ?>/assets/images/page-home/Banner3.jpg" alt="">
@@ -46,9 +45,9 @@ $the_query = new WP_Query($args);
             </div>
             <div class="row row-cols-2 row-cols-lg-4 cate-tags">
                 <div class="col">
-                    <div class="cate-item imghover border rounded d-flex flex-column">
+                    <div class="cate-item imghover border d-flex flex-column">
                         <a href="<?php echo home_url(); ?>/remote-control">
-                            <img class="imghover-op rounded"
+                            <img class="imghover-op"
                                 src="<?php bloginfo('template_directory'); ?>/assets/images/page-home/cate1.jpg"
                                 alt="cate1_img">
                             <p class="text-center py-3 fw-bold blue-co">無線リモコン</p>
@@ -56,9 +55,9 @@ $the_query = new WP_Query($args);
                     </div>
                 </div>
                 <div class="col ">
-                    <div class="cate-item imghover border rounded d-flex flex-column">
+                    <div class="cate-item imghover border d-flex flex-column">
                         <a href="<?php echo home_url(); ?>/transceiver">
-                            <img class="imghover-op rounded"
+                            <img class="imghover-op"
                                 src="<?php bloginfo('template_directory'); ?>/assets/images/page-home/cate2.jpg"
                                 alt="cate3_img">
                             <p class="text-center py-3 fw-bold green-co">トランシーバー</p>
@@ -66,9 +65,9 @@ $the_query = new WP_Query($args);
                     </div>
                 </div>
                 <div class="col">
-                    <div class="cate-item imghover border rounded d-flex flex-column">
+                    <div class="cate-item imghover border d-flex flex-column">
                         <a href="<?php echo home_url(); ?>/wireless-system">
-                            <img class="imghover-op rounded"
+                            <img class="imghover-op"
                                 src="<?php bloginfo('template_directory'); ?>/assets/images/page-home/cate3.jpg"
                                 alt="cate3_img">
                             <p class="text-center py-3 fw-bold red-co">ワイヤレスシステム</p>
@@ -76,9 +75,9 @@ $the_query = new WP_Query($args);
                     </div>
                 </div>
                 <div class="col">
-                    <div class="cate-item imghover border rounded d-flex flex-column">
+                    <div class="cate-item imghover border d-flex flex-column">
                         <a href="<?php echo home_url(); ?>/smart-gate">
-                            <img class="imghover-op rounded"
+                            <img class="imghover-op"
                                 src="<?php bloginfo('template_directory'); ?>/assets/images/page-home/cate4.jpg"
                                 alt="cate4_img">
                             <p class="text-center py-3 fw-bold purple-co">スマートゲート</p>
@@ -113,7 +112,7 @@ $the_query = new WP_Query($args);
                 </p>
             </div>
         </div>
-        <p class="see-more text-center">
+        <p class="detail text-center">
             <a class="purple-co purple-co-hv current-page" href="<?php echo home_url(); ?>/application">用途事例の詳細</a>
         </p>
     </div>
@@ -134,7 +133,7 @@ $the_query = new WP_Query($args);
         </p>
     </div>
 </section>
-<a href="<?php echo home_url(); ?> /news">
+<a href="<?php echo home_url(); ?>/news">
     <section class="noti-company">
         <div class="container">
             <h1 class="text-white fw-bold">
@@ -158,7 +157,7 @@ $the_query = new WP_Query($args);
             <?php wp_reset_query(); ?>
         </ul>
         <p class="detail text-center">
-            <a class="red-co red-co-hv current-page" href="<?php echo home_url(); ?>/tech-posts">会社概要の詳細</a>
+            <a class="yellow-co yellow-co-hv current-page" href="<?php echo home_url(); ?>/tech-posts">会社概要の詳細</a>
         </p>
     </div>
 </section>

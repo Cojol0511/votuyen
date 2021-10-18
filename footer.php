@@ -5,7 +5,7 @@
 </a>
 <a href="tel:07090033177">
     <div id="call_me">
-        <i class="fas fa-phone text-white"></i>
+        <i class="fas fa-phone-alt text-white"></i>
     </div>
 </a>
 <div id="footer">
@@ -14,11 +14,12 @@
             <div class="d-flex">
                 <a href="<?php echo home_url(); ?>/">
                     <img style="width: 32px;height: 32px;"
-                        src="<?php bloginfo('template_directory'); ?>/assets/images/logo.jpg" alt="" class="logo me-2">
+                        src="<?php bloginfo('template_directory'); ?>/assets/images/logo.png" alt="" class="logo me-2">
                 </a>
                 <h2 class="company-name fw-bold m-0">無線プラス株式会社</h2>
             </div>
-            <a href="https://goo.gl/maps/UXPjzMBG7gHzpk3P7" class=" d-block address text-black">〒555-0024　大阪府大阪市西淀川区野里
+            <a href="https://goo.gl/maps/UXPjzMBG7gHzpk3P7" target="_blank"
+                class=" d-block address text-black">〒555-0024　大阪府大阪市西淀川区野里
                 1-21-3</a>
             <a href="tel:070-9003-3177" class=" d-block tel text-black fw-bold">TEL. <span
                     class="red-co fw-bold">070-9003-3177</span>

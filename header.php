@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" type="image/png" href="<?php bloginfo('template_directory'); ?>/assets/images/logo.jpg" />
+    <link rel="shortcut icon" type="image/png" href="<?php bloginfo('template_directory'); ?>/assets/images/logo.png" />
     <?php wp_head(); ?>
 </head>
 
@@ -27,7 +27,7 @@
                 <div class="hLeft">
                     <div class="d-flex">
                         <a href="<?php echo home_url(); ?>/">
-                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/logo.jpg" alt=""
+                            <img src="<?php bloginfo('template_directory'); ?>/assets/images/logo.png" alt=""
                                 class="logo me-2 ms-auto ms-md-0 ">
                         </a>
                         <p class="text-center fw-bold comp-name mb-0">無線プラス株式会社</p>

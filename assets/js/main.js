@@ -5,18 +5,15 @@ jQuery(function ($) {
     var mbMenu = document.getElementById("mb-menu");
     $('i.mb-menu').click(function () {
       if (mbMenu.style.width == '100%') {
-        // $(mbMenu).hide();
         mbMenu.style.width = '0';
         $('#mb-menu .nav')[0].style.left = '-100px';
         $(this).toggleClass('fa-times fa-bars');
         $(this).css("transform", " rotate(0)");
       } else {
-        // $(mbMenu).show();
         mbMenu.style.width = '100%';
         $('#mb-menu .nav')[0].style.left = '0';
         $(this).toggleClass('fa-bars fa-times');
         $(this).css("transform", " rotate(180deg)");
-
       }
     })
 

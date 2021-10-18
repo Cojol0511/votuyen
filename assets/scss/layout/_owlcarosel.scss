@@ -26,15 +26,15 @@
     }
   }
 
+  button.owl-dot:not(:first-child) {
+    margin-left: 12px;
+  }
   button.owl-dot {
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    // background:$red-shadow-co !important;
     border: 2px solid $red-co !important;
-    margin-left: 12px;
     transition: 0.2s;
-
     &:hover {
       background: $red-co !important;
     }
