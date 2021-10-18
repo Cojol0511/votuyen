@@ -12,6 +12,16 @@
     .text-sub-title {
       font-size: 36px;
       font-weight: bold;
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        background-color: #64646466;
+        bottom: -10px;
+        left: 0;
+        height: 0.5px;
+        width: 100%;
+      }
     }
     .text-list {
       list-style-type: disc;
