@@ -131,7 +131,9 @@
     </div>
   </section>
 
-  <?php get_template_part( "template-parts/footer_top" ,"product"); ?>
+  <?php get_template_part( "template-parts/footer_top" ,"product", array(
+        'background-color'   => '#f5f5f5',
+    )); ?>
 
   <!-- Modal -->
   <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
