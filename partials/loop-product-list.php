@@ -11,7 +11,7 @@
     <div class="container">
       <div class="row gx-4">
         <div class="col-12">
-          <h1 class="w-100 d-none d-md-block text-title">用途／対応製品</h1>
+          <h1 class="w-100 d-none d-md-block text-title">用途／対応製品:</h1>
           <button type="button" data-bs-toggle="modal" data-bs-target="#Modal" class="w-100 button-title d-md-none">
             <h1 class="text-title">用途／対応製品</h1><i class="fad fa-angle-double-right text-title"></i>
           </button>
@@ -19,70 +19,70 @@
         <div class="d-none d-md-block col-md-4">
           <ul class="side-bar-product">
             <li>
-              <h2 class="text-sub-title">特定小電力送信機</h2>
+              <span class="text-sub-title">特定小電力送信機</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 特定小電力受信機</h2>
+              <span class="text-sub-title"> 特定小電力受信機</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 特定小電力トランシーバー</h2>
+              <span class="text-sub-title"> 特定小電力トランシーバー</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> LoRaモジュール</h2>
+              <span class="text-sub-title"> LoRaモジュール</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> Sigfoxモジュール</h2>
+              <span class="text-sub-title"> Sigfoxモジュール</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 無線モジュール</h2>
+              <span class="text-sub-title"> 無線モジュール</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 有線から無線に変換</h2>
+              <span class="text-sub-title"> 有線から無線に変換</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 産業リモコン</h2>
+              <span class="text-sub-title"> 産業リモコン</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 無線リモコン</h2>
+              <span class="text-sub-title"> 無線リモコン</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 緊急通報システム</h2>
+              <span class="text-sub-title"> 緊急通報システム</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> リモートモニタリングシステム</h2>
+              <span class="text-sub-title"> リモートモニタリングシステム</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> センサーネットワーク</h2>
+              <span class="text-sub-title"> センサーネットワーク</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> ISMバンド</h2>
+              <span class="text-sub-title"> ISMバンド</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 315MHz</h2>
+              <span class="text-sub-title"> 315MHz</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 426MHz</h2>
+              <span class="text-sub-title"> 426MHz</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 429MHz</h2>
+              <span class="text-sub-title"> 429MHz</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 920MHz</h2>
+              <span class="text-sub-title"> 920MHz</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 2.4GHz</h2>
+              <span class="text-sub-title"> 2.4GHz</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 遠隔監視システム</h2>
+              <span class="text-sub-title"> 遠隔監視システム</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 遠隔制御システム</h2>
+              <span class="text-sub-title"> 遠隔制御システム</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> カスタマイズ対応</h2>
+              <span class="text-sub-title"> カスタマイズ対応</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 特殊用途対応</h2>
+              <span class="text-sub-title"> 特殊用途対応</span>
             </li>
           </ul>
         </div>
@@ -131,83 +131,85 @@
     </div>
   </section>
 
-  <?php get_template_part( "template-parts/footer_top" ,"product"); ?>
+  <?php get_template_part( "template-parts/footer_top" ,"product", array(
+        'background-color'   => '#f5f5f5',
+    )); ?>
 
   <!-- Modal -->
   <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen-md-down">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="ModalLabel">用途／対応製品</h5>
+          <h1 class="modal-title text-title">用途／対応製品:</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <ul class="side-bar-product">
             <li>
-              <h2 class="text-sub-title">特定小電力送信機</h2>
+              <span class="text-sub-title">特定小電力送信機</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 特定小電力受信機</h2>
+              <span class="text-sub-title"> 特定小電力受信機</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 特定小電力トランシーバー</h2>
+              <span class="text-sub-title"> 特定小電力トランシーバー</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> LoRaモジュール</h2>
+              <span class="text-sub-title"> LoRaモジュール</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> Sigfoxモジュール</h2>
+              <span class="text-sub-title"> Sigfoxモジュール</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 無線モジュール</h2>
+              <span class="text-sub-title"> 無線モジュール</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 有線から無線に変換</h2>
+              <span class="text-sub-title"> 有線から無線に変換</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 産業リモコン</h2>
+              <span class="text-sub-title"> 産業リモコン</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 無線リモコン</h2>
+              <span class="text-sub-title"> 無線リモコン</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 緊急通報システム</h2>
+              <span class="text-sub-title"> 緊急通報システム</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> リモートモニタリングシステム</h2>
+              <span class="text-sub-title"> リモートモニタリングシステム</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> センサーネットワーク</h2>
+              <span class="text-sub-title"> センサーネットワーク</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> ISMバンド</h2>
+              <span class="text-sub-title"> ISMバンド</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 315MHz</h2>
+              <span class="text-sub-title"> 315MHz</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 426MHz</h2>
+              <span class="text-sub-title"> 426MHz</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 429MHz</h2>
+              <span class="text-sub-title"> 429MHz</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 920MHz</h2>
+              <span class="text-sub-title"> 920MHz</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 2.4GHz</h2>
+              <span class="text-sub-title"> 2.4GHz</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 遠隔監視システム</h2>
+              <span class="text-sub-title"> 遠隔監視システム</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 遠隔制御システム</h2>
+              <span class="text-sub-title"> 遠隔制御システム</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> カスタマイズ対応</h2>
+              <span class="text-sub-title"> カスタマイズ対応</span>
             </li>
             <li>
-              <h2 class="text-sub-title"> 特殊用途対応</h2>
+              <span class="text-sub-title"> 特殊用途対応</span>
             </li>
           </ul>
         </div>

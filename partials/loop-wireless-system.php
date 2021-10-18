@@ -13,7 +13,7 @@
     <div class="description">
       <div class="container">
         <div class="row">
-          <h1 class="text-title">1. 緊急通報システム</h1>
+          <h1 class="text-title">1. 緊急通報システム:</h1>
           <div class="col-md-3">
             <div class="menu">
               <ul>
@@ -28,7 +28,7 @@
           </div>
           <div class="col-md-9 text-center text-md-end">
             <img class="product-img"
-              src="<?php bloginfo('template_url'); ?>/assets/images/page-product/wireless-system-part1.jpg" alt="">
+              src="<?php bloginfo('template_url'); ?>/assets/images/page-product/wireless-system-part1.png" alt="">
           </div>
         </div>
 
@@ -67,7 +67,7 @@
     <div class="description">
       <div class="container">
         <div class="row">
-          <h1 class="text-title">2. 遠隔監視システム</h1>
+          <h1 class="text-title">2. 遠隔監視システム:</h1>
           <div class="col-md-3">
             <div class="menu">
               <ul>
@@ -85,10 +85,10 @@
       <div class="container">
         <h2 class="text-sub-title">特徴</h2>
         <ul class="feature-list">
-          <li><span>1.　マイクロ波センサー（ドップラー周波数）による動きの追跡</span></li>
+          <li><span>1. マイクロ波センサー（ドップラー周波数）による動きの追跡</span></li>
           <li><span>2. 環境依存の赤外線式を無くし、高精度の接近または離反の検知可</span></li>
-          <li><span>3.　カメラやレーザなどに比べて霧や雨等の環境変化による影響を受けにくい</span></li>
-          <li><span>4.　クラウド、スマートフォンに接続、制御可</span></li>
+          <li><span>3. カメラやレーザなどに比べて霧や雨等の環境変化による影響を受けにくい</span></li>
+          <li><span>4. クラウド、スマートフォンに接続、制御可</span></li>
         </ul>
       </div>
     </div>
@@ -119,7 +119,7 @@
     <div class="description">
       <div class="container">
         <div class="row">
-          <h1 class="text-title">3. センサーネットワークシステム</h1>
+          <h1 class="text-title">3. センサーネットワークシステム:</h1>
           <div class="col-md-3">
             <div class="menu">
               <ul>
@@ -161,7 +161,9 @@
     </div>
   </section>
 
-  <?php get_template_part( "template-parts/footer_top" ,"product"); ?>
+  <?php get_template_part( "template-parts/footer_top" ,"product", array(
+        'background-color'   => '#f5f5f5',
+    )); ?>
 
 </main>
 <?php get_footer(); ?>

@@ -11,8 +11,8 @@
       <div class="row">
         <div class="col-12">
           <div class="header">
-            <h1 class="text-title purple-co">製品情報</h1>
-            <h2 class="text-sub-title blue-co">高品質＋低コスト＋迅速での開発</h2>
+            <h1 class="text-title purple-co">用途事例</h1>
+            <h2 class="text-sub-title blue-co">お客様のニーズに応え</h2>
           </div>
 
         </div>
@@ -22,7 +22,7 @@
         </div>
         <div class="col-md-7">
           <div class="text2Col">
-            <h2 class="text-sub-title blue-co">特徴</h2>
+            <h2 class="text-sub-title blue-co">無線リモコン</h2>
             <ul class="text-list">
               <li><span>特定小電力送信機</span></li>
               <li><span>シャッターリモコン</span></li>

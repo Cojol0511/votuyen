@@ -1,22 +1,20 @@
 jQuery(function ($) {
   $(document).ready(function () {
-
     // mobile menu
     var mbMenu = document.getElementById("mb-menu");
-    $('i.mb-menu').click(function () {
-      if (mbMenu.style.width == '100%') {
-        mbMenu.style.width = '0';
-        $('#mb-menu .nav')[0].style.left = '-100px';
-        $(this).toggleClass('fa-times fa-bars');
+    $("i.mb-menu").click(function () {
+      if (mbMenu.style.width == "100%") {
+        mbMenu.style.width = "0";
+        $("#mb-menu .nav")[0].style.left = "-100px";
+        $(this).toggleClass("fa-times fa-bars");
         $(this).css("transform", " rotate(0)");
       } else {
-        mbMenu.style.width = '100%';
-        $('#mb-menu .nav')[0].style.left = '0';
-        $(this).toggleClass('fa-bars fa-times');
+        mbMenu.style.width = "100%";
+        $("#mb-menu .nav")[0].style.left = "0";
+        $(this).toggleClass("fa-bars fa-times");
         $(this).css("transform", " rotate(180deg)");
       }
-    })
-
+    });
 
     // active current page
     $("a[data-navUrl]").each(function () {
@@ -24,7 +22,15 @@ jQuery(function ($) {
         $(this).addClass("current-page fw-bold");
       }
     });
-
+    if (
+      current_slug == "remote-control" ||
+      current_slug == "transceiver" ||
+      current_slug == "wireless-system" ||
+      current_slug == "smart-gate"
+    ) {
+      $(".hRight ul li:nth-child(2) a").addClass("current-page fw-bold");
+      $(".fRight ul li:nth-child(2) a").addClass("current-page fw-bold");
+    }
     // scroll effect header , bottomToTop , Btn-call
     window.onscroll = function () {
       myFunction();
@@ -94,10 +100,8 @@ jQuery(function ($) {
       });
     }
 
-
-    if ($('.pagenavi .current').text() == '1') {
-      $('.pagenavi').prepend('<a class="prev-fake"><</a>');
+    if ($(".pagenavi .current").text() == "1") {
+      $(".pagenavi").prepend('<a class="prev-fake"><</a>');
     }
-
   });
 });
