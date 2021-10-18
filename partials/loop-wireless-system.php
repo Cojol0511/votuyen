@@ -13,7 +13,7 @@
     <div class="description">
       <div class="container">
         <div class="row">
-          <h1 class="text-title">1. 緊急通報システム</h1>
+          <h1 class="text-title">1. 緊急通報システム:</h1>
           <div class="col-md-3">
             <div class="menu">
               <ul>
@@ -67,7 +67,7 @@
     <div class="description">
       <div class="container">
         <div class="row">
-          <h1 class="text-title">2. 遠隔監視システム</h1>
+          <h1 class="text-title">2. 遠隔監視システム:</h1>
           <div class="col-md-3">
             <div class="menu">
               <ul>
@@ -85,10 +85,10 @@
       <div class="container">
         <h2 class="text-sub-title">特徴</h2>
         <ul class="feature-list">
-          <li><span>1.　マイクロ波センサー（ドップラー周波数）による動きの追跡</span></li>
+          <li><span>1. マイクロ波センサー（ドップラー周波数）による動きの追跡</span></li>
           <li><span>2. 環境依存の赤外線式を無くし、高精度の接近または離反の検知可</span></li>
-          <li><span>3.　カメラやレーザなどに比べて霧や雨等の環境変化による影響を受けにくい</span></li>
-          <li><span>4.　クラウド、スマートフォンに接続、制御可</span></li>
+          <li><span>3. カメラやレーザなどに比べて霧や雨等の環境変化による影響を受けにくい</span></li>
+          <li><span>4. クラウド、スマートフォンに接続、制御可</span></li>
         </ul>
       </div>
     </div>
@@ -119,7 +119,7 @@
     <div class="description">
       <div class="container">
         <div class="row">
-          <h1 class="text-title">3. センサーネットワークシステム</h1>
+          <h1 class="text-title">3. センサーネットワークシステム:</h1>
           <div class="col-md-3">
             <div class="menu">
               <ul>
