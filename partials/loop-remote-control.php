@@ -37,7 +37,7 @@
           </div>
           <div class="col-md-9 text-center text-md-end">
             <img class="product-img"
-              src="<?php bloginfo('template_url'); ?>/assets/images/page-product/remote-control-part1.jpg" alt="">
+              src="<?php bloginfo('template_url'); ?>/assets/images/page-product/remote-control-part1.png" alt="">
           </div>
         </div>
 
@@ -331,7 +331,7 @@
           </div>
           <div class="col-md-8 text-center text-md-end">
             <img class="product-img"
-              src="<?php bloginfo('template_url'); ?>/assets/images/page-product/remote-control-part3.jpg" alt="">
+              src="<?php bloginfo('template_url'); ?>/assets/images/page-product/remote-control-part3.png" alt="">
           </div>
         </div>
       </div>
@@ -360,10 +360,10 @@
           <div class="col-8">
             <div class="menu">
               <ul class="d-block">
-                <li>
+                <li class="w-100">
                   <h2 class="text-menu">ハイブリッドリモコン型番: HiTx01</h2>
                 </li>
-                <li>
+                <li class="w-100">
                   <h2 class="text-menu">ハイブリッドシステム型番: HiSys01</h2>
                 </li>
               </ul>
@@ -409,7 +409,7 @@
           </div>
           <div class="col-4 text-center text-md-end">
             <img class="product-img"
-              src="<?php bloginfo('template_url'); ?>/assets/images/page-product/remote-control-part4.jpg" alt="">
+              src="<?php bloginfo('template_url'); ?>/assets/images/page-product/remote-control-part4.png" alt="">
           </div>
           <div class="d-md-none col-12">
             <div class="table-responsive">

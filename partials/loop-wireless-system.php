@@ -28,7 +28,7 @@
           </div>
           <div class="col-md-9 text-center text-md-end">
             <img class="product-img"
-              src="<?php bloginfo('template_url'); ?>/assets/images/page-product/wireless-system-part1.jpg" alt="">
+              src="<?php bloginfo('template_url'); ?>/assets/images/page-product/wireless-system-part1.png" alt="">
           </div>
         </div>
 
