@@ -57,7 +57,7 @@
           </li>
           <li><span>5. IP67防水ケースまたは非防水ケースのたくさんケースシリーズから選択可</span>
           </li>
-          <li><span>6. バッテリータイプの多くの選択肢（CR2032、AAAx2、AAAx3、AAAx4、AAx2、AAx3、AAx4、AAx6</span>
+          <li><span>6. バッテリータイプの多くの選択肢（CR2032、AAAx2、AAAx3、AAAx4、AAx2、AAx3、AAx4、AAx6)</span>
           </li>
 
         </ul>
@@ -72,10 +72,10 @@
               <tr>
                 <td>項目</td>
                 <td>EcoTx315xx</td>
-                <td>EcoTx426A1</td>
-                <td>EcoTx429A1</td>
-                <td>EcoTx920A1</td>
-                <td>EcoTx2.4G1</td>
+                <td>EcoTx426xx</td>
+                <td>EcoTx429xx</td>
+                <td>EcoTx920xx</td>
+                <td>EcoTx2.4Gxx</td>
               </tr>
             </thead>
             <tbody>
@@ -233,10 +233,10 @@
               <tr>
                 <td>項目</td>
                 <td>EcoTx315xx</td>
-                <td>EcoTx426A1</td>
-                <td>EcoTx429A1</td>
-                <td>EcoTx920A1</td>
-                <td>EcoTx2.4G1</td>
+                <td>EcoRx426xx</td>
+                <td>EcoRx429xx</td>
+                <td>EcoTx920xx</td>
+                <td>EcoTx2.4Gxx</td>
               </tr>
             </thead>
             <tbody>
@@ -316,7 +316,7 @@
     <div class="description">
       <div class="container">
         <div class="row">
-          <h1 class="text-title">3. 赤外線リモコン</h1>
+          <h1 class="text-title">3. 赤外線リモコン:</h1>
           <div class="col-md-4">
             <div class="menu">
               <ul>
@@ -356,7 +356,7 @@
     <div class="description">
       <div class="container">
         <div class="row">
-          <h1 class="text-title">4. ハイブリッドリモコンシステム</h1>
+          <h1 class="text-title">4. ハイブリッドリモコンシステム:</h1>
           <div class="col-8">
             <div class="menu">
               <ul class="d-block">
@@ -464,7 +464,7 @@
     </div>
     <div class="text">
       <div class="container">
-        <h2 class="text-sub-title">特徴:</h2>
+        <h2 class="text-sub-title">特徴</h2>
         <ul class="feature-list">
           <li><span>1. 電波と赤外線のハイブリッド方式のリモコンシステム</span></li>
           <li><span>2. 指向性／無指向性／通信距離の用途からモード選定可</span></li>
