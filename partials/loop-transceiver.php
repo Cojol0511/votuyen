@@ -69,7 +69,7 @@
                 <td>EcoMod426xx</td>
                 <td>EcoMod429xx</td>
                 <td>EcoMod920xx</td>
-                <td>EcoTx2.EcoMod2.4Gxx</td>
+                <td>EcoMod2.4Gxx</td>
               </tr>
             </thead>
             <tbody>
