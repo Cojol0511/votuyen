@@ -318,9 +318,9 @@
         <div class="row">
           <h1 class="text-title">3. 赤外線リモコン:</h1>
           <div class="col-md-4">
-            <div class="menu">
+            <div class="menu menu-2col">
               <ul>
-                <li class="me-2">
+                <li>
                   <h2 class="text-menu">送信機型番: InTx01</h2>
                 </li>
                 <li>

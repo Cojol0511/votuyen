@@ -136,6 +136,14 @@
           li {
             margin: 5px 0;
             width: calc(100% / 3);
+            @media (max-width: 360px) {
+              width: 50%;
+            }
+          }
+        }
+        .menu-2col {
+          li {
+            width: 50%;
           }
         }
         .img-bottom {

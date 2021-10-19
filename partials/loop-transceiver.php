@@ -37,7 +37,7 @@
           </div>
           <div class="col-md-9 text-center text-md-end">
             <img class="product-img"
-              src="<?php bloginfo('template_url'); ?>/assets/images/page-product/transceiver-part1.jpg" alt="">
+              src="<?php bloginfo('template_url'); ?>/assets/images/page-product/transceiver-part1.png" alt="">
           </div>
         </div>
 
@@ -191,9 +191,9 @@
         <div class="row">
           <h1 class="text-title">2. LoRaモジュールシリーズ:</h1>
           <div class="col-md-3">
-            <div class="menu">
+            <div class="menu menu-2col">
               <ul>
-                <li class="me-2">
+                <li>
                   <h2 class="text-menu">SLR429A1</h2>
                 </li>
                 <li>
