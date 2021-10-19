@@ -38,10 +38,10 @@
 
                 </div>
                 <div class="hRight d-flex align-items-center">
-                    <div class="h-mb d-lg-none my-auto">
+                    <div class="h-mb d-xxl-none my-auto">
                         <i class="fas fa-bars mb-menu"></i>
                     </div>
-                    <ul class="nav d-lg-flex d-none justify-content-between w-100">
+                    <ul class="nav d-xxl-flex d-none justify-content-between w-100">
                         <li><a data-navurl="home" class="red-co red-co-hv" href="<?php echo home_url(); ?>/">ホーム</a>
                         </li>
                         <li><a data-navurl="product-list" class="yellow-co yellow-co-hv"
