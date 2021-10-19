@@ -25,7 +25,7 @@
           </div>
           <div class="col-md-6 text-center text-md-end">
             <img class="product-img"
-              src="<?php bloginfo('template_url'); ?>/assets/images/page-product/smart-gate-part1.jpg" alt="">
+              src="<?php bloginfo('template_url'); ?>/assets/images/page-product/smart-gate-part1.png" alt="">
           </div>
         </div>
 
