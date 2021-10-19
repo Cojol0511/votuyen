@@ -11,12 +11,12 @@
     <div class="container">
       <div class="row gx-4">
         <div class="col-12">
-          <h1 class="w-100 d-none d-md-block text-title">用途／対応製品:</h1>
-          <button type="button" data-bs-toggle="modal" data-bs-target="#Modal" class="w-100 button-title d-md-none">
+          <h1 class="w-100 d-none d-lg-block text-title">用途／対応製品:</h1>
+          <button type="button" data-bs-toggle="modal" data-bs-target="#Modal" class="w-100 button-title d-lg-none">
             <h1 class="text-title">用途／対応製品</h1><i class="fad fa-angle-double-right text-title"></i>
           </button>
         </div>
-        <div class="d-none d-md-block col-md-4">
+        <div class="d-none d-lg-block col-lg-4">
           <ul class="side-bar-product">
             <li>
               <span class="text-sub-title">特定小電力送信機</span>
@@ -86,8 +86,8 @@
             </li>
           </ul>
         </div>
-        <div class="col-md-8">
-          <div class="row g-2 g-md-4">
+        <div class="col-lg-8">
+          <div class="row g-2 g-lg-4">
             <div class="col-6">
               <a href="<?php echo get_home_url(); ?>/remote-control/">
                 <div class="product">
@@ -137,7 +137,7 @@
 
   <!-- Modal -->
   <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen-md-down">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen-lg-down">
       <div class="modal-content">
         <div class="modal-header">
           <h1 class="modal-title text-title">用途／対応製品:</h1>
@@ -213,9 +213,9 @@
             </li>
           </ul>
         </div>
-        <div class="modal-footer">
+        <!-- <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
