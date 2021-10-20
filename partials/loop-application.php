@@ -16,11 +16,11 @@
           </div>
 
         </div>
-        <div class="col-md-5">
+        <div class="col-lg-5">
           <img class="product-img"
             src="<?php bloginfo('template_url'); ?>/assets/images/page-application/application-part1.jpg" alt="">
         </div>
-        <div class="col-md-7">
+        <div class="col-lg-7">
           <div class="text2Col">
             <h2 class="text-sub-title blue-co">無線リモコン</h2>
             <ul class="text-list">
@@ -49,11 +49,11 @@
   <section class="">
     <div class="container">
       <div class="row">
-        <div class="col-md-5">
+        <div class="col-lg-5">
           <img class="product-img"
             src="<?php bloginfo('template_url'); ?>/assets/images/page-application/application-part2.jpg" alt="">
         </div>
-        <div class="col-md-7">
+        <div class="col-lg-7">
           <div class="text1Col">
             <h2 class="text-sub-title green-co">トランシーバー</h2>
             <ul class="text-list">
@@ -73,11 +73,11 @@
   <section class="section-last">
     <div class="container">
       <div class="row gy-md-0 gx-md-4 gx-0 gy-4">
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <img class="product-img"
             src="<?php bloginfo('template_url'); ?>/assets/images/page-application/application-part3.jpg" alt="">
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <img class="product-img"
             src="<?php bloginfo('template_url'); ?>/assets/images/page-application/application-part4.jpg" alt="">
         </div>

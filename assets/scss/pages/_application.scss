@@ -37,8 +37,9 @@
     .text-list {
       display: flex;
       flex-wrap: wrap;
+      justify-content: space-between;
       li {
-        flex-basis: 50%;
+        flex-basis: 45%;
         line-height: 50px;
       }
     }
@@ -72,7 +73,7 @@
     }
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   #page-application {
     .text1Col,
     .text2Col {
