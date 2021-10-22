@@ -43,7 +43,7 @@
           border: 1px solid #ddd;
         }
         thead {
-          font-weight: 500;
+          font-weight: bold;
           td:nth-child(1) {
             background-color: rgba(0, 0, 0, 0.05);
           }
@@ -76,7 +76,7 @@
         table-layout: fixed;
         text-align: center;
         thead {
-          font-weight: 500;
+          font-weight: bold;
           td:nth-child(1) {
             background-color: $table-color-1;
           }
@@ -136,6 +136,14 @@
           li {
             margin: 5px 0;
             width: calc(100% / 3);
+            @media (max-width: 360px) {
+              width: 50%;
+            }
+          }
+        }
+        .menu-2col {
+          li {
+            width: 50%;
           }
         }
         .img-bottom {

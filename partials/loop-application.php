@@ -11,18 +11,18 @@
       <div class="row">
         <div class="col-12">
           <div class="header">
-            <h1 class="text-title purple-co">製品情報</h1>
-            <h2 class="text-sub-title blue-co">高品質＋低コスト＋迅速での開発</h2>
+            <h1 class="text-title purple-co">用途事例</h1>
+            <h2 class="text-sub-title blue-co">お客様のニーズに応え</h2>
           </div>
 
         </div>
-        <div class="col-md-5">
+        <div class="col-lg-5">
           <img class="product-img"
             src="<?php bloginfo('template_url'); ?>/assets/images/page-application/application-part1.jpg" alt="">
         </div>
-        <div class="col-md-7">
+        <div class="col-lg-7">
           <div class="text2Col">
-            <h2 class="text-sub-title blue-co">特徴</h2>
+            <h2 class="text-sub-title blue-co">無線リモコン</h2>
             <ul class="text-list">
               <li><span>特定小電力送信機</span></li>
               <li><span>シャッターリモコン</span></li>
@@ -49,11 +49,11 @@
   <section class="">
     <div class="container">
       <div class="row">
-        <div class="col-md-5">
+        <div class="col-lg-5">
           <img class="product-img"
             src="<?php bloginfo('template_url'); ?>/assets/images/page-application/application-part2.jpg" alt="">
         </div>
-        <div class="col-md-7">
+        <div class="col-lg-7">
           <div class="text1Col">
             <h2 class="text-sub-title green-co">トランシーバー</h2>
             <ul class="text-list">
@@ -73,11 +73,11 @@
   <section class="section-last">
     <div class="container">
       <div class="row gy-md-0 gx-md-4 gx-0 gy-4">
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <img class="product-img"
             src="<?php bloginfo('template_url'); ?>/assets/images/page-application/application-part3.jpg" alt="">
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <img class="product-img"
             src="<?php bloginfo('template_url'); ?>/assets/images/page-application/application-part4.jpg" alt="">
         </div>
