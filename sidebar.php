@@ -11,7 +11,7 @@ $args = array(
 $the_query = new WP_Query($args);
 ?>
 
-<div class="col-lg-3 col-12 mt-5 mt-lg-0 ">
+<div class="col-xl-3 col-12 mt-5 mt-lg-0 ">
     <div class="tech-info-sidebar border">
         <p class="sb-title fw-bold">
             最も人気のある

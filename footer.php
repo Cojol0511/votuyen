@@ -26,7 +26,7 @@
             </a>
             <a href="mailto:musenplus@gmail.com" class=" d-block email text-black">Eメール: musenplus@gmail.com</a>
         </div>
-        <div class="fRight d-lg-flex d-none align-items-center ">
+        <div class="fRight d-xxl-flex d-none align-items-center ">
             <ul class="fNav d-flex justify-content-lg-between">
                 <li><a data-navurl="home" class=" red-co red-co-hv " href="<?php echo home_url(); ?>/">ホーム</a></li>
                 <li><a data-navurl="product-list" class="yellow-co yellow-co-hv"

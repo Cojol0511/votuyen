@@ -1,8 +1,13 @@
 .page-content{
+    img{
+        max-width: 100%;
+        margin-bottom: $size2 ;
+    }
     section.section-blog{
         .ar-left{
             text-align: justify;
             text-justify: inter-word;
+            img{max-width: 100%;}
         }
     }
 }

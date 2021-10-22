@@ -14,11 +14,12 @@ section.content-tech-info{
             margin-right: $size3;
             img{
                 border-radius: 10px;
-                width: 270px;
-                @media (max-width: 576px) { 
-                    width: 100%;
-                }
-                object-fit: cover;
+                width: 100%;
+                // width: 270px;
+                // @media (max-width: 576px) { 
+                //     width: 100%;
+                // }
+                // object-fit: cover;
             }
         }
         // img{

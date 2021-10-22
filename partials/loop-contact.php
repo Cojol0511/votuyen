@@ -19,8 +19,8 @@
             <p class="para1 fw-bold">製品のお問い合わせについて</p>
             <p class="para2 fw-bold">技術コンサルタント・製品の用途・通信距離などについてご質問などがございましたらお電話・メール、または下記お問い合わせフォームにてお問い合わせください。</p>
             <div class="box-tel row">
-                <div class="box-tel-left col-lg-6 col-12">
-                    <p>Tel: 070-9003-3177</p>
+                <div class="box-tel-left d-block d-lg-flex col-lg-6 col-12">
+                    <p class="my-lg-auto my-0">Tel: 070-9003-3177</p>
                 </div>
                 <div class="box-tel-right col-lg-6 col-12">
                     <p>＜メールでのお問い合わせ＞</p>

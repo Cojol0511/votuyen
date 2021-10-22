@@ -73,13 +73,20 @@ jQuery(function ($) {
           dots: $(this).data("dots"),
           center: $(this).data("center"),
           loop: $(this).data("loop"),
+          mouseDrag: $(this).data("drag"),
           responsive: {
             0: {
               items: $(this).data("mobile"),
+              autoplay: true,
+              autoplayTimeout: 3000
+
             },
             768: {
               items: $(this).data("tablet"),
               margin: $(this).data("margintb"),
+              autoplay: true,
+              autoplayTimeout: 3000
+
             },
             992: {
               items: $(this).data("desktop-small"),

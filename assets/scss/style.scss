@@ -68,6 +68,7 @@ h2{
 @import "pages/product-detail";
 @import "pages/product-list";
 @import "pages/tech-posts";
+@import "pages/single";
 @import "reponsive";
 
 body {
@@ -76,14 +77,14 @@ body {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
-  @media (max-width: 992px) { 
+  @media (max-width: 1024px) { 
     margin-top: 90px;
 }
 }
 
 p.detail{
   font-size: $size3;
-  @media (max-width: 992px) { 
+  @media (max-width: 1024px) { 
       font-size: $sizedf;
   }
 }
@@ -183,5 +184,16 @@ $hv-scale:1.05;
 }
 
 .wpcf7-response-output{
-  display: none;
+  font-weight: bold;
+  color: #09c750;
+  border: none !important;
+}
+
+.owl-carousel .owl-stage {
+  display: flex;
+}
+
+.owl-carousel .owl-item img {
+  width: 100%;
+  height: 100%;
 }
