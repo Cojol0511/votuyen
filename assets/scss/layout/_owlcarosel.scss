@@ -1,4 +1,7 @@
 .owl-carousel {
+  .owl-stage{
+    width: 1000% !important;
+  }
   position: relative;
   .owl-dots {
     display: flex;

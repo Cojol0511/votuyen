@@ -26,18 +26,23 @@ $the_query = new WP_Query($args);
             <div class="col-xl-9 col-12">
                 <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
                 <div class="post-item border ">
-                    <div class="d-flex">
-                        <div class="wrapper" style="width: 30%;">
-                            <a href="<?php echo get_permalink() ?>">
-                                <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt=""></a>
+                    <div class="row">
+                        <div class="col-md-4 col-12">
+                            <div class="wrapper">
+                                <a href="<?php echo get_permalink() ?>">
+                                    <img src="<?php echo get_the_post_thumbnail_url() ? get_the_post_thumbnail_url() :  bloginfo('template_directory') . '/assets/images/thumbnail.jpg' ?>"
+                                        alt=""></a>
+                            </div>
                         </div>
-                        <div class="content" style="width: 70%;">
-                            <p class="title fw-bold"><a class="text-black"
-                                    href="<?php echo get_permalink() ?>"><?php echo get_the_title(); ?></a></p>
-                            <p class="short-desc"><?php echo wp_strip_all_tags(get_the_content()); ?></p>
-                            <p class="see-detail "><a href="<?php echo get_permalink() ?>"
-                                    class="current-page text-black">もっと見る></a>
-                            </p>
+                        <div class="col-md-8 col-12">
+                            <div class="content">
+                                <p class="title fw-bold"><a class="text-black"
+                                        href="<?php echo get_permalink() ?>"><?php echo get_the_title(); ?></a></p>
+                                <p class="short-desc"><?php echo wp_strip_all_tags(get_the_content()); ?></p>
+                                <p class="see-detail "><a href="<?php echo get_permalink() ?>"
+                                        class="current-page text-black">もっと見る></a>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>

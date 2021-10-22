@@ -13,7 +13,7 @@ $args = array(
 $the_query = new WP_Query($args);
 ?>
 <section class="banner-home">
-    <div data-carousel-items="1" data-loop="true" data-autoplay="true" data-autotime="3000"
+    <div data-carousel-items="1" data-dots="false" data-loop="true" data-autoplay="false" data-autotime="3000"
         class="owl-carousel banner-wrapper">
         <img src="<?php bloginfo('template_directory'); ?>/assets/images/page-home/Banner.jpg" alt="">
         <img src="<?php bloginfo('template_directory'); ?>/assets/images/page-home/Banner2.jpg" alt="">
@@ -46,7 +46,7 @@ $the_query = new WP_Query($args);
                         class="yellow-co yellow-co-hv current-page">製品リスト</a>
                 </p>
             </div>
-            <div class="row row-cols-2 row-cols-lg-4 cate-tags">
+            <div class="row row-cols-2 row-cols-lg-4 cate-tags m-0">
                 <div class="col">
                     <div class="cate-item imghover border d-flex flex-column">
                         <a href="<?php echo home_url(); ?>/remote-control">

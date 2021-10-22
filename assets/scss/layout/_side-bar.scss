@@ -7,13 +7,13 @@
         margin-bottom: $size3;
     }
     .post-item-recomend{
-        display: flex;
+        // display: flex;
         margin-bottom: $size3;
         .wrapper{
-            margin-right: 12px;
+            // margin-right: 12px;
             img{
                 border-radius: 10px;
-                width: 100px;
+                width: 100%;
                 object-fit: cover;
             }
         }

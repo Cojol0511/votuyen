@@ -16,17 +16,26 @@ $the_query = new WP_Query($args);
         <p class="sb-title fw-bold">
             最も人気のある
         </p>
-        <?php while ($the_query->have_posts()) : $the_query->the_post();  ?>
+        <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
         <div class="post-item-recomend">
-            <div class="wrapper">
-                <a class="text-black" href="<?php echo get_permalink() ?>">
-                    <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt=""></a>
+            <div class="row">
+                <div class="col-4">
+                    <div class="wrapper">
+                        <a class="text-black" href="<?php echo get_permalink() ?>">
+                            <img src="<?php echo get_the_post_thumbnail_url() ? get_the_post_thumbnail_url() :  bloginfo('template_directory') . '/assets/images/thumbnail.jpg' ?>"
+                                alt=""></a>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <p class="title">
+                        <a class="text-black" href="<?php echo get_permalink() ?>">
+                            <?php echo get_the_title(); ?>
+                        </a>
+                    </p>
+                </div>
             </div>
-            <p class="title">
-                <a class="text-black" href="<?php echo get_permalink() ?>">
-                    <?php echo get_the_title(); ?>
-                </a>
-            </p>
+
+
         </div>
         <?php endwhile; ?>
         <?php wp_reset_query(); ?>

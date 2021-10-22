@@ -51,6 +51,9 @@ section.map-product{
                     transform: translate(-50%, -50%);
                     font-size: $size3;
                 }
+                @media (max-width: 575.98px) {
+                    font-size: $size3mb;
+                }
             }
             &-medium{
                 max-width: 230px;
@@ -132,7 +135,7 @@ section.cate-products{
                 background: white;
                 @media (max-width: 425px) { 
                     height: 100px;
-                    object-fit: cover;
+                    // object-fit: cover;
 
                 }
                 }
