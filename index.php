@@ -13,7 +13,8 @@ $args = array(
 $the_query = new WP_Query($args);
 ?>
 <section class="banner-home">
-    <div data-carousel-items="1" data-loop="true" data-autotime="3000" class="owl-carousel banner-wrapper">
+    <div data-carousel-items="1" data-loop="true" data-autoplay="true" data-autotime="3000"
+        class="owl-carousel banner-wrapper">
         <img src="<?php bloginfo('template_directory'); ?>/assets/images/page-home/Banner.jpg" alt="">
         <img src="<?php bloginfo('template_directory'); ?>/assets/images/page-home/Banner2.jpg" alt="">
         <img src="<?php bloginfo('template_directory'); ?>/assets/images/page-home/Banner3.jpg" alt="">
@@ -39,9 +40,11 @@ $the_query = new WP_Query($args);
 <section class="cate-products position-relative">
     <div class="container">
         <div class="wrapper d-flex flex-lg-row flex-column-reverse justify-content-lg-between">
-            <div class="title fit-content mt-3 mt-md-auto fw-bold ">
-                <a href="<?php bloginfo('template_directory'); ?>/product-list"
-                    class="yellow-co yellow-co-hv current-page">製品リスト</a>
+            <div class="title fit-content mt-3 mt-md-auto">
+                <p class="detail">
+                    <a href="<?php bloginfo('template_directory'); ?>/product-list"
+                        class="yellow-co yellow-co-hv current-page">製品リスト</a>
+                </p>
             </div>
             <div class="row row-cols-2 row-cols-lg-4 cate-tags">
                 <div class="col">
@@ -92,7 +95,7 @@ $the_query = new WP_Query($args);
     <div class="container">
         <h1 class="purple-co fw-bold text-center">用途事例</h1>
         <div class="list-examples owl-carousel" data-mobile="1" data-tablet="2" data-carousel-items="3" data-loop="true"
-            data-center="true" data-dots="false" data-nav="true" data-margin="24">
+            data-drag="false" data-center="true" data-dots="false" data-nav="true" data-margin="24">
             <div class="appl-item">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/images/page-home/ungdung1.jpg" alt="">
                 <p class="name blue-co">

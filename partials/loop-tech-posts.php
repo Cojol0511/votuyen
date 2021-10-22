@@ -23,15 +23,15 @@ $the_query = new WP_Query($args);
             技術情報
         </h1>
         <div class="row">
-            <div class="col-lg-9 col-12">
+            <div class="col-xl-9 col-12">
                 <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
                 <div class="post-item border ">
                     <div class="d-flex">
-                        <div class="wrapper">
+                        <div class="wrapper" style="width: 30%;">
                             <a href="<?php echo get_permalink() ?>">
                                 <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt=""></a>
                         </div>
-                        <div class="content">
+                        <div class="content" style="width: 70%;">
                             <p class="title fw-bold"><a class="text-black"
                                     href="<?php echo get_permalink() ?>"><?php echo get_the_title(); ?></a></p>
                             <p class="short-desc"><?php echo wp_strip_all_tags(get_the_content()); ?></p>
