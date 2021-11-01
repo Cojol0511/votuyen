@@ -16,11 +16,17 @@ $the_query = new WP_Query($args);
     <div data-carousel-items="1" data-dots="false" data-loop="true" data-autoplay="false" data-autotime="3000"
         class="owl-carousel banner-wrapper">
         <img src="<?php bloginfo('template_directory'); ?>/assets/images/page-home/Banner.jpg" alt="">
-        <img src="<?php bloginfo('template_directory'); ?>/assets/images/page-home/Banner2.jpg" alt="">
-        <img src="<?php bloginfo('template_directory'); ?>/assets/images/page-home/Banner3.jpg" alt="">
+        <a href="<?php echo home_url(); ?>/product-list">
+            <img src="<?php bloginfo('template_directory'); ?>/assets/images/page-home/Banner2.jpg" alt="">
+        </a>
+        <a href="<?php echo home_url(); ?>/company">
+            <img src="<?php bloginfo('template_directory'); ?>/assets/images/page-home/Banner3.jpg" alt="">
+        </a>
     </div>
 </section>
 <section class="map-product">
+    <h1>letrunghieu test ftp</h1>
+
     <div class="map-product-wrapper">
         <div class="container position-relative h-100">
             <div class="content fw-bold content-short yellow-co bg-white">
@@ -148,8 +154,7 @@ $the_query = new WP_Query($args);
 </a>
 <section class="tech-info">
     <div class="container">
-        <h1 class="text-center"><a class="yellow-co yellow-co-hv fw-bold"
-                href="<?php echo home_url(); ?> /tech-posts">技術情報</a></h1>
+        <h1 class="text-center yellow-co">技術情報</h1>
         <ul class="tech-info-list">
             <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
             <a class="" href="<?php echo get_permalink() ?>">

@@ -1,5 +1,14 @@
 jQuery(function ($) {
   $(document).ready(function () {
+    $('form.wpcf7-form').submit(function () {
+      setTimeout(function () {
+        let successTxt = $('form.wpcf7-form .wpcf7-response-output').text()
+        if (successTxt != '') {
+          location.href = success_url
+        }
+      }, 1500);
+    })
+
     // mobile menu
     var mbMenu = document.getElementById("mb-menu");
     $("i.mb-menu").click(function () {

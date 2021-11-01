@@ -12,7 +12,7 @@ section.banner-home{
 
 section.map-product{
     .map-product-wrapper{
-        background-image: url("../images/page-home/bannerMap.png");
+        background-image: url("../images/page-home/bannerMap.jpg");
         background-position: center; 
         background-repeat: no-repeat;
         background-size: cover;
@@ -101,6 +101,7 @@ section.cate-products{
         top:0;
         padding: 24px 0 44px;
     }
+
     .wrapper{
         // height: 220px;
     .title{
@@ -109,6 +110,12 @@ section.cate-products{
             font-size: $size35;
             text-align: center;
         }
+        p.detail{
+                @media (max-width: 1400px) {
+                    font-size: 16px;
+            }
+        }
+    
     }
     .cate-tags{
         max-width: 1042px;
@@ -141,7 +148,7 @@ section.cate-products{
                 }
                 p{
                     font-size: $size3;
-                    @media (max-width: 1200px) { 
+                    @media (max-width: 1400px) { 
                         font-size: $size3mb;
                     }
                 }

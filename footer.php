@@ -47,6 +47,7 @@
     $post_slug = $post->post_name;
     ?>
 var current_slug = '<?php echo $post_slug; ?>'
+var success_url = '<?php echo home_url(); ?>/success'
 </script>
 <?php wp_footer(); ?>
 </div>

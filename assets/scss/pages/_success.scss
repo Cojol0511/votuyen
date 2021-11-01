@@ -1,0 +1,21 @@
+#page-success{
+    padding: 48px 0;
+    @media (max-width: 767.98px) {
+        font-size: $size25mb;
+        padding: 24px 0;
+    }
+    h2{
+        font-weight: bold;
+        font-size: $size25;
+        @media (max-width: 767.98px) {
+            font-size: $size25mb;
+        }
+    }
+    p{
+        font-size: 24px;
+        @media (max-width: 767.98px) {
+            font-size: 16px;
+        }
+    }
+
+}

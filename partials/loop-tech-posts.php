@@ -40,7 +40,7 @@ $the_query = new WP_Query($args);
                                         href="<?php echo get_permalink() ?>"><?php echo get_the_title(); ?></a></p>
                                 <p class="short-desc"><?php echo wp_strip_all_tags(get_the_content()); ?></p>
                                 <p class="see-detail "><a href="<?php echo get_permalink() ?>"
-                                        class="current-page text-black">もっと見る></a>
+                                        class="current-page text-black">Xem></a>
                                 </p>
                             </div>
                         </div>
